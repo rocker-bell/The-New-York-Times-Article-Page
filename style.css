@@ -5,11 +5,15 @@
 */
 body {
   margin: 0;
+  background-color: #ffffff;
 }
 
 :root {
-  --color-red: #f42;
-  --bg-color-red: #f42;
+
+  --header-color: rgb(19, 19, 19);
+  --color-btnhover: rgb(34, 93,132);
+  
+  --p-color : rgb(45, 45, 45)
 }
 
 *,
@@ -36,7 +40,24 @@ a:hover {
 }
 
 
+.topnav{
+  overflow: hidden;
+  display: ;
+}
 
+p{
+  color: var(--p-color);
+}
+
+h1{
+  color: var(--header-color);
+}
+
+
+.btn{
+  background-color: rgb(71, 112, 137);
+  color: #ffffff;
+}
 
 
 
