@@ -28,12 +28,18 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 a:hover {
-  color: #333;
+  color:;
 }
+
+
+
+
+
+
 
 /*
     ==============================================
