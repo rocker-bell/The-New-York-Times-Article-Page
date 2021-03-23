@@ -3,12 +3,17 @@
                 ****** RESET ******
     ==============================================
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 body {
   margin: 0;
   background-color: #ffffff;
 }
 
-
+@font-face{
+  font-family: "cheltenham-italic-700";
+  src: url(fonts\cheltenham-italic-700.ttf);
+}
 
 
 :root {
@@ -34,7 +39,7 @@ ul {
 }
 
 a {
-  text-decoration: none;
+  
   color: black;
 }
 
@@ -52,7 +57,23 @@ a:hover {
 
 .topnav{
   overflow: hidden;
-  display: ;
+  display: flex;
+}
+
+
+.left-nav{
+  float:left;
+  
+}
+
+.logo{
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.right-nav{
+  float:right;
 }
 
 p{
@@ -61,6 +82,18 @@ p{
 
 h1{
   color: var(--header-color);
+  font-size: 40px;
+  line-height: 48px;
+  font-family: "cheltenham-italic-700", Georgia, 'Times New Roman', Times, serif;
+}
+
+#desc{
+  color:#888888;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.13px;
+  font-family: "Tinos",  georgia, "times new roman", times, serif;
+  
 }
 
 
