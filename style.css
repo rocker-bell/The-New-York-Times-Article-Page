@@ -36,7 +36,7 @@ body {
 
 
 body{
-  border: 10px solid yellow;
+  
 }
 
 ul {
@@ -59,8 +59,15 @@ a:hover {
   line-height: 19px;
 }
 
+header{
+  border: 1px solid #333333;
+}
 
 .container1{
+  height: 65px;
+  background-color: #ffffff;
+  width: 100%;
+  position: fixed;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
@@ -69,15 +76,34 @@ a:hover {
 
 .left-nav{
   float:left;
+  padding: 20px;
   
+}
+
+.left-nav a{
+  padding-right: 10px;
+  display: inline;
+}
+
+
+#logo{
+  width: 250px;
+  padding: 20px;
 }
 
 .logo{
   
+  justify-content: center;
 }
 
 .right-nav{
   float:right;
+  padding: 20px;
+}
+
+.right-nav button{
+  padding: 10px;
+  
 }
 
 p{
@@ -104,6 +130,7 @@ h1{
 .btn{
   background-color: rgb(71, 112, 137);
   color: #ffffff;
+  padding: 10px;
 }
 
 
@@ -114,8 +141,8 @@ h1{
 
 main{
   border: 2px solid green;
-  width: 100%;
-  height:32%;
+  padding-top: 70px;
+  overflow: hidden;
   
   
  
@@ -127,6 +154,25 @@ main{
   padding-left: 30%;
   padding-right:30%;
 }
+
+
+#img {
+  width: 100%;
+}
+
+
+
+/*   footer    */
+
+
+.Main-container{
+  padding-top: 20px;
+  justify-content: center;
+  display: inline-flex;
+}
+
+
+
 
 
 
