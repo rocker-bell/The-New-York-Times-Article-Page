@@ -168,7 +168,25 @@ main{
 .Main-container{
   padding-top: 20px;
   justify-content: center;
-  display: inline-flex;
+  display: inline;
+}
+
+
+
+.footer-nav{
+  
+ border:3px solid black;
+ padding: ;
+ 
+ 
+}
+
+#Home-page-link{
+  float: right;
+  justify-content: center;
+  padding-top:25px;
+  padding: bottom 25px;
+  padding-right:50px;
 }
 
 
