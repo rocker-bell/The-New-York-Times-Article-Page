@@ -8,8 +8,11 @@ body {
   background-color: #ffffff;
 }
 
-:root {
 
+
+
+:root {
+  
   --header-color: rgb(19, 19, 19);
   --color-btnhover: rgb(34, 93,132);
   
@@ -37,6 +40,13 @@ a {
 
 a:hover {
   color:;
+}
+
+#nav-tag{
+  font-family: 'Franklin Gothic Medium';
+  color: #000000;
+  size: 14px;
+  line-height: 19px;
 }
 
 
