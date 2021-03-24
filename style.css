@@ -165,7 +165,7 @@ main{
 
 
 .acticle img{
-  width:1200px;
+  
 }
 
 .main-container{
@@ -185,22 +185,64 @@ main{
 
 
 .Main-container{
-  border: 10px solid pink;
+  width: 100%;
+  border: 10px solid green;
   padding-top: 20px;
-  justify-content: center;
-  display: inline;
+  display: flex;
+  flex-direction: column
+  
+  
 }
 
 
 
 .footer-nav{
+  flex-basis: 100%;
+  overflow: hidden;
   
-  width: 1000px;
   border:3px solid black;
   padding: 10px;
  
  
 }
+
+.footer-main{
+  flex-basis:100%;
+  display: flex;
+  text-align: center;
+  border-bottom: 1px solid  #888888;
+}
+
+.footer-main ul {
+  padding: 30px;
+  display: inline-block;
+  text-align: left;
+  
+}
+
+.footer-bottom{
+  flex-basis: 100%;
+  
+  
+}
+
+.footer-bottom ul {
+  display: flex;
+  padding: 20px 20px;
+}
+
+.footer-bottom li {
+  padding: 10px;
+  list-style: none;
+}
+
+.footer-bottom a{
+  text-decoration: none;
+  color: #888888;
+}
+
+
+
 
 #Home-page-link{
   float: right;
