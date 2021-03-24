@@ -58,11 +58,13 @@ a {
 }
 
 header{
-  border: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  box-shadow: 5px 5px 5px #888888;
+  
 }
 
 .container1{
-  height: 65px;
+  height: 55px;
   background-color: #ffffff;
   width: 100%;
   position: fixed;
@@ -85,7 +87,7 @@ header{
 
 
 #logo{
-  width: 250px;
+  width: 200px;
   padding: 20px;
 }
 
@@ -95,6 +97,7 @@ header{
 }
 
 .right-nav{
+  margin-top: -10px;
   float:right;
   padding: 20px;
 }
@@ -102,12 +105,14 @@ header{
 .right-nav button{
   padding: 10px;
   
+  
 }
 
 .btn{
+  border-radius: 8px;
   background-color: rgb(71, 112, 137);
   color: #ffffff;
-  padding: 10px;
+  
 }
 
 
@@ -250,6 +255,9 @@ p{
 .footer-main li a{
   text-decoration: none;
 }
+
+
+
 
 
 /* footer bottom   */
