@@ -36,7 +36,7 @@ body {
 
 
 body{
-  
+  margin: 0;
 }
 
 ul {
@@ -48,9 +48,7 @@ a {
   color: black;
 }
 
-a:hover {
-  color:;
-}
+/*  *********Navbar styling***********  */
 
 #nav-tag{
   font-family: 'Franklin Gothic Medium';
@@ -106,9 +104,14 @@ header{
   
 }
 
-p{
-  color: var(--p-color);
+.btn{
+  background-color: rgb(71, 112, 137);
+  color: #ffffff;
+  padding: 10px;
 }
+
+
+/*    header   */
 
 h1{
   padding: 20px 20px;
@@ -121,6 +124,10 @@ h1{
   font-family: "cheltenham-italic-700", Georgia, 'Times New Roman', Times, serif;
 }
 
+
+
+/*     social medias icons   */
+
 .SocialMedias{
   
   display: flex;
@@ -132,6 +139,51 @@ h1{
   color: black;
 }
 
+
+
+
+
+
+
+/* Main section */
+
+
+
+main{
+  margin-bottom: 5px;
+  border-bottom: 1px solid #888888;
+  padding-top: 70px;
+  overflow: hidden;
+  
+  
+ 
+}
+
+.main-container{
+  justify-content: center;
+  padding-left: 25%;
+  padding-right:25%;
+}
+
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 30px;
+  font-size: 20px;
+  color: var(--p-color);
+}
+
+/*  nested links in paragraphs   */
+#nested-links{
+  color: blue;
+}
+
+
+
+
+#img {
+  width: 100%;
+}
+/*    image description    */
 #desc{
   color:#888888;
   font-size: 13px;
@@ -142,51 +194,12 @@ h1{
 }
 
 
-.btn{
-  background-color: rgb(71, 112, 137);
-  color: #ffffff;
-  padding: 10px;
-}
-
-
-
-/* Main section */
-
-
-
-main{
-  border: 2px solid green;
-  padding-top: 70px;
-  overflow: hidden;
-  
-  
- 
-}
-
-
-.acticle img{
-  
-}
-
-.main-container{
-  justify-content: center;
-  padding-left: 30%;
-  padding-right:30%;
-}
-
-
-#img {
-  width: 100%;
-}
-
-
-
-/*   footer    */
+/*  ******* footer ********    */
 
 
 .Main-container{
   width: 100%;
-  border: 10px solid green;
+  border-top: 1px solid #888888;
   padding-top: 20px;
   display: flex;
   flex-direction: column
@@ -194,7 +207,18 @@ main{
   
 }
 
+/*  footer navigation bar  */
 
+/*      home page link    */
+
+
+#Home-page-link{
+  float: right;
+  justify-content: center;
+  padding-top:25px;
+  padding: bottom 25px;
+  padding-right:50px;
+}
 
 .footer-nav{
   flex-basis: 100%;
@@ -205,6 +229,9 @@ main{
  
  
 }
+
+
+/*  MAIN FOOTER   */
 
 .footer-main{
   flex-basis:100%;
@@ -219,6 +246,13 @@ main{
   text-align: left;
   
 }
+
+.footer-main li a{
+  text-decoration: none;
+}
+
+
+/* footer bottom   */
 
 .footer-bottom{
   flex-basis: 100%;
@@ -241,16 +275,13 @@ main{
   color: #888888;
 }
 
-
-
-
-#Home-page-link{
-  float: right;
-  justify-content: center;
-  padding-top:25px;
-  padding: bottom 25px;
-  padding-right:50px;
+.footer-bottom a:hover{
+  text-decoration: solid;
 }
+
+
+
+
 
 
 

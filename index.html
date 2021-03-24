@@ -7,6 +7,7 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
@@ -25,8 +26,8 @@
         /></a>
       </div>
       <div class="right-nav">
-        <button id="sub" class="btn">SUBSCRIBE NOW</button>
-        <button id="LOG IN" class="btn">Log in</button>
+        <button id="sub" class="btn" type="button" aria-controls="SUBSCRIBE">SUBSCRIBE NOW</button>
+        <button id="LOG IN" class="btn" type="button" aria-controls="Log in">Log in</button>
       </div>
     </header>
 
@@ -42,7 +43,7 @@
           <a href="#bookmark"><i class="fas fa-bookmark"></i></a>
         </div>
         <div class="article">
-          <img src="images\18cosmos-superJumbo.jpg" id="img" alt="inflation" />
+          <img src="images\18cosmos-superJumbo.jpg" id="img" id="Firstimg" alt="inflation" />
           <div class="img-description">
             <p>
               Alan Guth was one of the first physicists to hypothesize the
@@ -96,13 +97,13 @@
 
           <p>
             Reaching back across 13.8 billion years to
-            <a href="https://www.youtube.com/watch?v=ZJYc9YmKIO8"
+            <a href="https://www.youtube.com/watch?v=ZJYc9YmKIO8" id="nested-links"
               >the first sliver of cosmic time</a
             >
             with telescopes at the South Pole, a team of astronomers led by John
             M. Kovac of the Harvard-Smithsonian Center for Astrophysics detected
             ripples in the fabric of space-time — so-<a
-              href="https://www.nytimes.com/2016/02/12/science/ligo-gravitational-waves-black-holes-einstein.html"
+              href="https://www.nytimes.com/2016/02/12/science/ligo-gravitational-waves-black-holes-einstein.html" id="nested-links"
             >
               gravitational waves
             </a>
@@ -234,7 +235,7 @@
             the most popular variant of inflation, known as chaotic inflation,
             in 1983, was about to go on vacation in the Caribbean last week when
             Chao-Lin Kuo, a Stanford colleague and a member of Dr. Kovac’s team,
-            <a href="https://www.youtube.com/watch?v=ZlfIVEy_YOA"
+            <a href="https://www.youtube.com/watch?v=ZlfIVEy_YOA" id="nested-links"
               >knocked on his door with a bottle of Champagne</a
             >
             to tell him the news.
@@ -243,13 +244,13 @@
 
           <div class="video-player">
             <iframe
-              width="560"
-              height="315"
+              width="710"
+              height="400"
               src="https://www.youtube.com/embed/ZlfIVEy_YOA"
               title="YouTube video player"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;"
+              
             ></iframe>
             <p>
               Stanford Professor Andrei Linde celebrates physics breakthrough
@@ -530,7 +531,7 @@
           <a href="#homepage" id="Home-page-link">Go to Home Page »</a>
         </div> 
 
-        
+
         <div class="footer-main">
           <ul>
             <li><b>NEWS</b></li>
