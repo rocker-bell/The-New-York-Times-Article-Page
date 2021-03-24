@@ -12,7 +12,7 @@ body {
 
 @font-face{
   font-family: "cheltenham-italic-700";
-  src: url(fonts\cheltenham-italic-700.ttf);
+  src: url(fonts/cheltenham-italic-700.ttf);
 }
 
 
@@ -111,10 +111,25 @@ p{
 }
 
 h1{
+  padding: 20px 20px;
+  border-bottom: 1px solid  #888888;
+  margin-top:30px;
+  margin-bottom: 30px;
   color: var(--header-color);
   font-size: 40px;
   line-height: 48px;
   font-family: "cheltenham-italic-700", Georgia, 'Times New Roman', Times, serif;
+}
+
+.SocialMedias{
+  
+  display: flex;
+  justify-content: space-between;
+  margin:20px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  width: 285 ;
+  color: black;
 }
 
 #desc{
@@ -149,6 +164,10 @@ main{
 }
 
 
+.acticle img{
+  width:1200px;
+}
+
 .main-container{
   justify-content: center;
   padding-left: 30%;
@@ -166,6 +185,7 @@ main{
 
 
 .Main-container{
+  border: 10px solid pink;
   padding-top: 20px;
   justify-content: center;
   display: inline;
@@ -175,8 +195,9 @@ main{
 
 .footer-nav{
   
- border:3px solid black;
- padding: ;
+  width: 1000px;
+  border:3px solid black;
+  padding: 10px;
  
  
 }
