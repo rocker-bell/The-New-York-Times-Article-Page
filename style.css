@@ -8,9 +8,7 @@
 body {
   display: flex;
   flex-direction: column;
-  
   align-items: center;
-  
   margin: 0;
   background-color: #ffffff;
 }
@@ -22,10 +20,8 @@ body {
 
 
 :root {
-  
   --header-color: rgb(19, 19, 19);
   --color-btnhover: rgb(34, 93,132);
-  
   --p-color : rgb(45, 45, 45)
 }
 
@@ -46,7 +42,6 @@ ul {
 }
 
 a {
-  
   color: black;
 }
 
@@ -65,8 +60,6 @@ a {
 
 header{
   border-bottom: 1px solid #ccc;
-  
-  
 }
 
 .container1{
@@ -84,7 +77,6 @@ header{
 .left-nav{
   float:left;
   padding: 20px;
-  
 }
 
 .left-nav a{
@@ -111,16 +103,13 @@ header{
 
 .right-nav button{
   padding: 10px;
-  
-  
 }
 
 .btn{
   border-radius: 8px;
   background-color: rgb(71, 112, 137);
   color: #ffffff;
-  
-}
+  }
 
 
 /*    header   */
@@ -141,11 +130,9 @@ h1{
 /*     social medias icons   */
 
 .SocialMedias{
-  
   display: flex;
   justify-content: space-between;
   margin:20px;
-  
   padding-top:20px;
   padding-bottom: 20px;
   width: 285 ;
@@ -163,22 +150,13 @@ h1{
 
 
 main{
-  
-  
   width: 1800px;
-  /*border-bottom: 1px solid #888888;*/
   padding-top: 70px;
   overflow: hidden;
-  
-  
-  
-  
- 
 }
 /* ----------sidenav----------       */
 
 aside{
-  
   background-color: #ffffff;
   position: absolute;
   left: 1250px;
@@ -186,24 +164,19 @@ aside{
   flex-direction: column;
   width: 250px;
   height: 330px;
-  
   float: right;
   padding: 20px;
 }
 
 aside div{
-  
   padding: 5px;
   display:flex;
-  
   width:210px;
   height:78px;
-
 }
 aside div a{
   padding: 5px;
   font-size: 12px;
-  
 }
 
 aside div img{
@@ -225,7 +198,6 @@ aside p{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
   padding-left: 25%;
   padding-right:25%;
 }
@@ -244,33 +216,17 @@ p{
 
 /* -------------------pic caption------------------ */
 
-/* 1 cap*/
-/*.img1-cap{
-  width: 200px;
-  height: 170px;
-  border: 1px solid black;
-  position: absolute;
-  top:3000px;
-}
 
-
-.img1-cap p{
-  font-size: 10px;
-}*/
 
 .image-captions{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  
 }
 .image-captions div{
-  
   width: 200px;
   height: 150px;
-  
-  
 }
 
 
@@ -327,16 +283,14 @@ p{
 
 #img {
  width: 100%;
-
 }
 /*    image description    */
 #desc{
-  color:#888888;
+  color:#888;
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 0.13px;
   font-family: "Tinos",  georgia, "times new roman", times, serif;
-  
 }
 
 /* -------------------end---------------------   */
@@ -345,15 +299,11 @@ p{
 
 
 .Main-container{
-  
   border-top: 4px double #888888;
   padding-top: 20px;
   display: flex;
   flex-direction: column;
-  
   justify-content: center;
-  
-  
 }
 
 /*  footer navigation bar  */
@@ -380,11 +330,7 @@ footer {
 .footer-nav{
   flex-basis: 100%;
   overflow: hidden;
-  
-  
   padding: 10px;
- 
- 
 }
 
 
@@ -394,14 +340,13 @@ footer {
   flex-basis:100%;
   display: flex;
   text-align: center;
-  border-bottom: 1px solid  #888888;
+  border-bottom: 1px solid  #888;
 }
 
 .footer-main ul {
   padding: 30px;
   display: inline-block;
   text-align: left;
-  
 }
 
 .footer-main li a{
@@ -416,8 +361,6 @@ footer {
 
 .footer-bottom{
   flex-basis: 100%;
-  
-  
 }
 
 .footer-bottom ul {
