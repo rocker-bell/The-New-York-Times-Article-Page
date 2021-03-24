@@ -6,6 +6,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 body {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  
   margin: 0;
   background-color: #ffffff;
 }
@@ -35,9 +40,6 @@ body {
 }
 
 
-body{
-  margin: 0;
-}
 
 ul {
   list-style: none;
@@ -58,14 +60,15 @@ a {
 }
 
 header{
-  border-bottom: 1px solid #333333;
-  box-shadow: 5px 5px 5px #888888;
+  border-bottom: 1px solid #ccc;
+  
   
 }
 
 .container1{
   height: 55px;
   background-color: #ffffff;
+  z-index: 2;
   width: 100%;
   position: fixed;
   overflow: hidden;
@@ -138,6 +141,7 @@ h1{
   display: flex;
   justify-content: space-between;
   margin:20px;
+  
   padding-top:20px;
   padding-bottom: 20px;
   width: 285 ;
@@ -155,17 +159,69 @@ h1{
 
 
 main{
-  margin-bottom: 5px;
-  border-bottom: 1px solid #888888;
+  
+  
+  width: 1200px;
+  /*border-bottom: 1px solid #888888;*/
   padding-top: 70px;
   overflow: hidden;
   
   
+  
+  
  
 }
+/* ----------sidenav----------       */
+
+aside{
+  
+  background-color: #ffffff;
+  position: absolute;
+  left: 1200px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 330px;
+  
+  float: right;
+  padding: 20px;
+}
+
+aside div{
+  
+  padding: 5px;
+  display:flex;
+  
+  width:210px;
+  height:78px;
+
+}
+aside div a{
+  padding: 5px;
+  font-size: 12px;
+  
+}
+
+aside div img{
+  width: 75px;
+  height: 75px;
+}
+
+aside p{
+  font-size: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+
+/* -------------------end---------------------   */
 
 .main-container{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  
   padding-left: 25%;
   padding-right:25%;
 }
@@ -185,8 +241,10 @@ p{
 
 
 
+
 #img {
-  width: 100%;
+ width: 100%;
+
 }
 /*    image description    */
 #desc{
@@ -203,11 +261,13 @@ p{
 
 
 .Main-container{
-  width: 100%;
-  border-top: 1px solid #888888;
+  
+  border-top: 4px double #888888;
   padding-top: 20px;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  
+  justify-content: center;
   
   
 }
@@ -215,6 +275,14 @@ p{
 /*  footer navigation bar  */
 
 /*      home page link    */
+
+
+footer {
+  width: 1200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 
 #Home-page-link{
@@ -229,7 +297,7 @@ p{
   flex-basis: 100%;
   overflow: hidden;
   
-  border:3px solid black;
+  
   padding: 10px;
  
  
