@@ -57,7 +57,11 @@ a {
   color: #000000;
   size: 14px;
   line-height: 19px;
+  text-decoration: none;
 }
+
+
+
 
 header{
   border-bottom: 1px solid #ccc;
@@ -149,19 +153,19 @@ h1{
 }
 
 
+/* -------------------end---------------------   */
 
 
 
 
-
-/* Main section */
+/* ---------------------Main section------------------------ */
 
 
 
 main{
   
   
-  width: 1200px;
+  width: 1800px;
   /*border-bottom: 1px solid #888888;*/
   padding-top: 70px;
   overflow: hidden;
@@ -177,7 +181,7 @@ aside{
   
   background-color: #ffffff;
   position: absolute;
-  left: 1200px;
+  left: 1250px;
   display: flex;
   flex-direction: column;
   width: 250px;
@@ -238,8 +242,87 @@ p{
   color: blue;
 }
 
+/* -------------------pic caption------------------ */
+
+/* 1 cap*/
+/*.img1-cap{
+  width: 200px;
+  height: 170px;
+  border: 1px solid black;
+  position: absolute;
+  top:3000px;
+}
 
 
+.img1-cap p{
+  font-size: 10px;
+}*/
+
+.image-captions{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.image-captions div{
+  
+  width: 200px;
+  height: 150px;
+  
+  
+}
+
+
+.img1-cap{
+  position:absolute;
+  top:2760px;
+}
+
+.img2-cap{
+  position: absolute;
+  top:2760px;  right:770px;
+}
+
+
+.img3-cap{
+  position: absolute;
+  top: 2760px; right:550px;
+}
+
+.img4-cap{
+  position: absolute;
+  top: 2760px; right: 320px;
+}
+
+.img5-cap{
+  position: absolute;
+  top:3020px;
+}
+
+.img6-cap{
+  position: absolute;
+  top: 3020px; right:770px;
+}
+
+.img7-cap{
+  position: absolute;
+  top:3020px; right:550px;
+}
+
+.img8-cap{
+  position: absolute;
+  top:3020px; right:320px;
+}
+
+.image-captions div p{
+  font-size: 9px;
+}
+
+
+
+
+/* -------------------end------------------ */
 
 
 #img {
@@ -256,6 +339,7 @@ p{
   
 }
 
+/* -------------------end---------------------   */
 
 /*  ******* footer ********    */
 
@@ -355,7 +439,7 @@ footer {
   text-decoration: solid;
 }
 
-
+/* -------------------end---------------------   */
 
 
 
