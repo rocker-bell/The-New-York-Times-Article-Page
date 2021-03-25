@@ -50,7 +50,6 @@ a {
 #nav-tag{
   font-family: 'Franklin Gothic Medium';
   color: #000000;
-  size: 14px;
   line-height: 19px;
   text-decoration: none;
 }
@@ -133,7 +132,6 @@ h1{
 /*     social medias icons   */
 
 .SocialMedias{
-  
   display: flex;
   justify-content: space-between;
   margin:20px;
@@ -347,7 +345,6 @@ p{
 
 
 .Main-container{
-  
   border-top: 4px double #888;
   padding-top: 20px;
   display: flex;
@@ -405,10 +402,6 @@ footer {
 .footer-main li a{
   text-decoration: none;
 }
-
-
-
-
 
 /* footer bottom   */
 
