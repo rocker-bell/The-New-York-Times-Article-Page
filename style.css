@@ -14,6 +14,7 @@ body {
   background-color: #fff;
 }
 
+
 @font-face {
   font-family: "cheltenham-italic-700";
   src: url(fonts/cheltenham-italic-700.ttf);
@@ -25,8 +26,8 @@ body {
   --p-color: rgb(45, 45, 45);
 }
 
-*, 
-*::before, 
+*,
+*::before,
 *::after {
   margin: 0;
   padding: 0;
@@ -83,7 +84,7 @@ header {
   box-sizing: content-box;
 }
 
-#logo-fig1, 
+#logo-fig1,
 #logo-fig2 {
   width: 200px;
   display: flex;
@@ -104,7 +105,7 @@ header {
   border-radius: 8px;
   background-color: rgb(71, 112, 137);
   color: #fff;
-  }
+}
 
 /*    header   */
 
@@ -177,6 +178,13 @@ main {
   overflow: hidden;
 }
 
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 30px;
+  font-size: 20px;
+  color: var(--p-color);
+}
+
 /* ----------sidenav----------       */
 aside {
   background-color: #fff;
@@ -190,7 +198,7 @@ aside {
   padding: 20px;
 }
 
-aside div {
+#sidenav div {
   padding: 5px;
   display: flex;
   width: 210px;
@@ -202,12 +210,12 @@ aside div {
   font-size: 12px;
 }
 
-aside div img {
+#sidenav div img {
   width: 75px;
   height: 75px;
 }
 
-aside p {
+#sidenav p {
   font-size: 15px;
   padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
@@ -223,12 +231,7 @@ aside p {
   padding-right: 25%;
 }
 
-p {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  line-height: 30px;
-  font-size: 20px;
-  color: var(--p-color);
-}
+
 
 /*  nested links in paragraphs   */
 
