@@ -42,18 +42,18 @@ a {
 }
 /*  *********Navbar styling***********  */
 
-#nav-tag{
+#nav-tag {
   font-family: 'Franklin Gothic Medium';
   color: #000;
   line-height: 19px;
   text-decoration: none;
 }
 
-header{
+header {
   border-bottom: 1px solid #ccc;
 }
 
-.container1{
+.container1 {
   height: 55px;
   background-color: #fff;
   z-index: 2;
@@ -64,45 +64,45 @@ header{
   justify-content: space-between;
 }
 
-.left-nav{
+.left-nav {
   float: left;
   padding: 20px;
 }
 
-.left-nav a{
+.left-nav a {
   padding-right: 10px;
   display: inline;
 }
 
-#logo{
+#logo {
   width: 200px;
   padding: 20px;
   box-sizing: content-box;
 }
 
-#logo-fig1, #logo-fig2{
+#logo-fig1, #logo-fig2 {
   width: 200px;
   display: flex;
   justify-content: center;
 }
 
-.right-nav{
+.right-nav {
   margin-top: -10px;
   float: right;
   padding: 20px;
 }
 
-.right-nav button{
+.right-nav button {
   padding: 10px;
 }
 
-.btn{
+.btn {
   border-radius: 8px;
   background-color: rgb(71, 112, 137);
   color: #fff;
   }
 /*    header   */
-h1{
+h1 {
   padding: 20px 20px;
   border-bottom: 1px solid  #888888;
   margin-top: 30px;
@@ -113,7 +113,7 @@ h1{
   font-family: "cheltenham-italic-700", Georgia, 'Times New Roman', Times, serif;
 }
 /*     social medias icons   */
-.SocialMedias{
+.SocialMedias {
   display: flex;
   justify-content: space-between;
   margin: 20px;
@@ -124,26 +124,26 @@ h1{
   color: grey;
 }
 
-#first-img{
+#first-img {
   width: 100%;
 }
 
-.second-figure{
+.second-figure {
   width: 1000px;
   height: 800px;
 }
 
-#second-img{
+#second-img {
   width: 945px;
   height: 752px;
 }
 
-.third-figure{
+.third-figure {
   width: 700px;
   height: 550px;
 }
 
-#third-img{
+#third-img {
   width: 720px;
   height: 481px;
 }
@@ -152,12 +152,12 @@ h1{
   padding-top: 60px;
 }
 
-section{
+section {
   margin: 0 auto;
   width: 700px;
 }
 /* ---------------------Main section------------------------ */
-main{
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -167,7 +167,7 @@ main{
   overflow: hidden;
 }
 /* ----------sidenav----------       */
-aside{
+aside {
   background-color: #fff;
   position: absolute;
   left: 1200px;
@@ -179,30 +179,30 @@ aside{
   padding: 20px;
 }
 
-aside div{
+aside div {
   padding: 5px;
   display: flex;
   width: 210px;
   height: 78px;
 }
 
-aside div a{
+aside div a {
   padding: 5px;
   font-size: 12px;
 }
 
-aside div img{
+aside div img {
   width: 75px;
   height: 75px;
 }
 
-aside p{
+aside p {
   font-size: 15px;
   padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
 /* -------------------end---------------------   */
-.main-container{
+.main-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -210,82 +210,82 @@ aside p{
   padding-right: 25%;
 }
 
-p{
+p {
   font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 30px;
   font-size: 20px;
   color: var(--p-color);
 }
 /*  nested links in paragraphs   */
-.nested-links{
+.nested-links {
   color: blue;
 }
 /* -------------------pic caption------------------ */
-.image-captions{
+.image-captions {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.image-captions div{
+.image-captions div {
   width: 200px;
   height: 150px;
 }
 
-.img1-cap{
+.img1-cap {
   position: absolute;
   top: 3370px;  left: 290px;
 }
 
-.img2-cap{
+.img2-cap {
   position: absolute;
   top: 3370px;  right: 800px;
 }
 
-.img3-cap{
+.img3-cap {
   position: absolute;
   top: 3370px; right:550px;
 }
 
-.img4-cap{
+.img4-cap {
   position: absolute;
   top: 3370px; right: 320px;
 }
 
-.img5-cap{
+.img5-cap {
   position: absolute;
   top: 3730px; left: 290px;
 }
 
-.img6-cap{
+.img6-cap {
   position: absolute;
   top: 3730px; right:800px;
 }
 
-.img7-cap{
+.img7-cap {
   position: absolute;
   top: 3730px; right: 550px;
 }
 
-.img8-cap{
+.img8-cap {
   position: absolute;
   top: 3730px; right: 320px;
 }
 
-.image-captions div p{
+.image-captions div p {
   font-family:'Times New Roman', Times, serif ;
   line-height: 18px;
   font-size: 12px;
 }
 /*      */
-.VideoP{
+.VideoP {
   border: 0;
   width: 700px;
   height: 450px;
 }
 /*    image description    */
-.desc{
+.desc {
   color: #888;
   font-size: 13px;
   line-height: 18px;
@@ -293,7 +293,7 @@ p{
   font-family: "Tinos",  georgia, "times new roman", times, serif;
 }
 /*  ******* footer ********    */
-.Main-container{
+.Main-container {
   border-top: 4px double #888;
   padding-top: 20px;
   display: flex;
@@ -308,7 +308,7 @@ footer {
   justify-content: center;
 }
 
-#Home-page-link{
+#Home-page-link {
   align-items: center;
   float: right;
   justify-content: center;
@@ -317,7 +317,7 @@ footer {
   padding-right: 50px;
 }
 
-.footer-nav{
+.footer-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -326,7 +326,7 @@ footer {
   padding: 10px;
 }
 /*  MAIN FOOTER   */
-.footer-main{
+.footer-main {
   flex-basis: 100%;
   display: flex;
   text-align: center;
@@ -339,11 +339,11 @@ footer {
   text-align: left;
 }
 
-.footer-main li a{
+.footer-main li a {
   text-decoration: none;
 }
 /* footer bottom   */
-.footer-bottom{
+.footer-bottom {
   flex-basis: 100%;
 }
 
@@ -357,7 +357,7 @@ footer {
   list-style: none;
 }
 
-.footer-bottom a{
+.footer-bottom a {
   text-decoration: none;
   color: #888;
 }
