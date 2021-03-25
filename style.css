@@ -133,14 +133,15 @@ h1{
 /*     social medias icons   */
 
 .SocialMedias{
-  border: 5px solid blue;
+  
   display: flex;
   justify-content: space-between;
   margin:20px;
   padding-top:20px;
   padding-bottom: 20px;
-  width: 285 ;
-  color: black;
+  width: 285px;
+  height:27px;
+  color:grey;
 }
 #first-img{
   width: 100%;
