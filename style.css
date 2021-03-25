@@ -40,6 +40,7 @@ ul {
 a {
   color: black;
 }
+
 /*  *********Navbar styling***********  */
 
 #nav-tag {
@@ -101,7 +102,9 @@ header {
   background-color: rgb(71, 112, 137);
   color: #fff;
   }
+
 /*    header   */
+
 h1 {
   padding: 20px 20px;
   border-bottom: 1px solid  #888888;
@@ -112,7 +115,9 @@ h1 {
   line-height: 48px;
   font-family: "cheltenham-italic-700", Georgia, 'Times New Roman', Times, serif;
 }
+
 /*     social medias icons   */
+
 .SocialMedias {
   display: flex;
   justify-content: space-between;
@@ -156,7 +161,9 @@ section {
   margin: 0 auto;
   width: 700px;
 }
+
 /* ---------------------Main section------------------------ */
+
 main {
   display: flex;
   flex-direction: column;
@@ -166,6 +173,7 @@ main {
   padding-top: 70px;
   overflow: hidden;
 }
+
 /* ----------sidenav----------       */
 aside {
   background-color: #fff;
@@ -201,7 +209,9 @@ aside p {
   padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
+
 /* -------------------end---------------------   */
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -216,11 +226,15 @@ p {
   font-size: 20px;
   color: var(--p-color);
 }
+
 /*  nested links in paragraphs   */
+
 .nested-links {
   color: blue;
 }
+
 /* -------------------pic caption------------------ */
+
 .image-captions {
   display: flex;
   flex-direction: row;
@@ -278,21 +292,27 @@ p {
   line-height: 18px;
   font-size: 12px;
 }
-/*      */
+
+/* Video-player */
+
 .VideoP {
   border: 0;
   width: 700px;
   height: 450px;
 }
+
 /*    image description    */
+
 .desc {
   color: #888;
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 0.13px;
   font-family: "Tinos",  georgia, "times new roman", times, serif;
-}
+} 
+
 /*  ******* footer ********    */
+
 .Main-container {
   border-top: 4px double #888;
   padding-top: 20px;
@@ -300,7 +320,9 @@ p {
   flex-direction: column;
   justify-content: center;
 }
+
 /*  footer navigation bar  */
+
 footer {
   width: 1200px;
   flex-direction: column;
@@ -325,7 +347,9 @@ footer {
   overflow: hidden;
   padding: 10px;
 }
+
 /*  MAIN FOOTER   */
+
 .footer-main {
   flex-basis: 100%;
   display: flex;
@@ -342,7 +366,9 @@ footer {
 .footer-main li a {
   text-decoration: none;
 }
+
 /* footer bottom   */
+
 .footer-bottom {
   flex-basis: 100%;
 }
