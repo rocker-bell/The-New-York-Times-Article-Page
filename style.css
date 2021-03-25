@@ -87,11 +87,14 @@ header{
 
 #logo{
   width: 200px;
-  padding: 20px;
+  padding:20px;
+  box-sizing: content-box;
 }
 
-.logo{
-  
+#logo-fig1, #logo-fig2{
+  width: 200px;
+
+  display: flex;
   justify-content: center;
 }
 
@@ -130,6 +133,7 @@ h1{
 /*     social medias icons   */
 
 .SocialMedias{
+  border: 5px solid blue;
   display: flex;
   justify-content: space-between;
   margin:20px;
@@ -138,6 +142,39 @@ h1{
   width: 285 ;
   color: black;
 }
+#first-img{
+  width: 100%;
+}
+
+.second-figure{
+  width: 1000px;
+  height: 800px;
+}
+
+#second-img{
+  width: 945px;
+  height: 752px;
+}
+
+.third-figure{
+  width: 700px;
+  height: 550px;
+}
+
+#third-img{
+  width: 720px;
+  height: 481px;
+}
+.section2 {
+  padding-top: 60px;
+}
+section{
+  margin: 0 auto;
+  width: 700px;
+}
+
+
+
 
 
 /* -------------------end---------------------   */
@@ -150,7 +187,11 @@ h1{
 
 
 main{
-  width: 1800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:1200px;
+  height:100%;
   padding-top: 70px;
   overflow: hidden;
 }
@@ -210,7 +251,7 @@ p{
 }
 
 /*  nested links in paragraphs   */
-#nested-links{
+.nested-links{
   color: blue;
 }
 
@@ -232,60 +273,65 @@ p{
 
 .img1-cap{
   position:absolute;
-  top:2760px;
+  top:3370px;  left:290px;
 }
 
 .img2-cap{
   position: absolute;
-  top:2760px;  right:770px;
+  top:3370px;  right:800px;
 }
 
 
 .img3-cap{
   position: absolute;
-  top: 2760px; right:550px;
+  top:3370px; right:550px;
 }
 
 .img4-cap{
   position: absolute;
-  top: 2760px; right: 320px;
+  top: 3370px; right: 320px;
 }
 
 .img5-cap{
   position: absolute;
-  top:3020px;
+  top:3730px; left: 290px;
 }
 
 .img6-cap{
   position: absolute;
-  top: 3020px; right:770px;
+  top: 3730px; right:800px;
 }
 
 .img7-cap{
   position: absolute;
-  top:3020px; right:550px;
+  top:3730px; right:550px;
 }
 
 .img8-cap{
   position: absolute;
-  top:3020px; right:320px;
+  top:3730px; right:320px;
 }
+
 
 .image-captions div p{
-  font-size: 9px;
+  font-family:'Times New Roman', Times, serif ;
+  line-height: 18px;
+  font-size: 12px;
 }
 
-
+/*      */
+.VideoP{
+  width: 700px;
+  height:450px;
+}
 
 
 /* -------------------end------------------ */
 
 
-#img {
- width: 100%;
-}
+
 /*    image description    */
-#desc{
+.desc{
   color:#888;
   font-size: 13px;
   line-height: 18px;
@@ -299,7 +345,8 @@ p{
 
 
 .Main-container{
-  border-top: 4px double #888888;
+  
+  border-top: 4px double #888;
   padding-top: 20px;
   display: flex;
   flex-direction: column;
@@ -320,6 +367,7 @@ footer {
 
 
 #Home-page-link{
+  align-items: center;
   float: right;
   justify-content: center;
   padding-top:25px;
@@ -328,6 +376,9 @@ footer {
 }
 
 .footer-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-basis: 100%;
   overflow: hidden;
   padding: 10px;
@@ -375,7 +426,7 @@ footer {
 
 .footer-bottom a{
   text-decoration: none;
-  color: #888888;
+  color: #888;
 }
 
 .footer-bottom a:hover{
