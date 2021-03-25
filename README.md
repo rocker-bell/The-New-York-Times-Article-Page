@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 ![](https://img.shields.io/badge/myapp-blueviolet)
 
-# Project Name
+# The New York times article page
 
 > One paragraph statement about the project.
 
