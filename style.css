@@ -22,10 +22,12 @@ body {
 :root {
   --header-color: rgb(19, 19, 19);
   --color-btnhover: rgb(34, 93,132);
-  --p-color: rgb(45, 45, 45)
+  --p-color: rgb(45, 45, 45);
 }
 
-*, *::before, *::after {
+*, 
+*::before, 
+*::after {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -44,7 +46,7 @@ a {
 /*  *********Navbar styling***********  */
 
 #nav-tag {
-  font-family: 'Franklin Gothic Medium';
+  font-family: 'Franklin Gothic Medium', Arial, Helvetica, sans-serif;
   color: #000;
   line-height: 19px;
   text-decoration: none;
@@ -81,7 +83,8 @@ header {
   box-sizing: content-box;
 }
 
-#logo-fig1, #logo-fig2 {
+#logo-fig1, 
+#logo-fig2 {
   width: 200px;
   display: flex;
   justify-content: center;
@@ -107,7 +110,7 @@ header {
 
 h1 {
   padding: 20px 20px;
-  border-bottom: 1px solid  #888888;
+  border-bottom: 1px solid  #888;
   margin-top: 30px;
   margin-bottom: 30px;
   color: var(--header-color);
@@ -194,7 +197,7 @@ aside div {
   height: 78px;
 }
 
-aside div a {
+#sidenav div a {
   padding: 5px;
   font-size: 12px;
 }
@@ -335,7 +338,7 @@ footer {
   float: right;
   justify-content: center;
   padding-top: 25px;
-  padding: bottom 25px;
+  padding-bottom: 25px;
   padding-right: 50px;
 }
 
