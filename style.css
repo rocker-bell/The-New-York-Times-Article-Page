@@ -5,37 +5,33 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
-@font-face{
+@font-face {
   font-family: "cheltenham-italic-700";
   src: url(fonts/cheltenham-italic-700.ttf);
 }
 
-
 :root {
   --header-color: rgb(19, 19, 19);
   --color-btnhover: rgb(34, 93,132);
-  --p-color : rgb(45, 45, 45)
+  --p-color: rgb(45, 45, 45)
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-
 
 ul {
   list-style: none;
@@ -44,18 +40,14 @@ ul {
 a {
   color: black;
 }
-
 /*  *********Navbar styling***********  */
 
 #nav-tag{
   font-family: 'Franklin Gothic Medium';
-  color: #000000;
+  color: #000;
   line-height: 19px;
   text-decoration: none;
 }
-
-
-
 
 header{
   border-bottom: 1px solid #ccc;
@@ -63,7 +55,7 @@ header{
 
 .container1{
   height: 55px;
-  background-color: #ffffff;
+  background-color: #fff;
   z-index: 2;
   width: 100%;
   position: fixed;
@@ -72,9 +64,8 @@ header{
   justify-content: space-between;
 }
 
-
 .left-nav{
-  float:left;
+  float: left;
   padding: 20px;
 }
 
@@ -83,23 +74,21 @@ header{
   display: inline;
 }
 
-
 #logo{
   width: 200px;
-  padding:20px;
+  padding: 20px;
   box-sizing: content-box;
 }
 
 #logo-fig1, #logo-fig2{
   width: 200px;
-
   display: flex;
   justify-content: center;
 }
 
 .right-nav{
   margin-top: -10px;
-  float:right;
+  float: right;
   padding: 20px;
 }
 
@@ -110,37 +99,31 @@ header{
 .btn{
   border-radius: 8px;
   background-color: rgb(71, 112, 137);
-  color: #ffffff;
+  color: #fff;
   }
-
-
 /*    header   */
-
 h1{
   padding: 20px 20px;
   border-bottom: 1px solid  #888888;
-  margin-top:30px;
+  margin-top: 30px;
   margin-bottom: 30px;
   color: var(--header-color);
   font-size: 40px;
   line-height: 48px;
   font-family: "cheltenham-italic-700", Georgia, 'Times New Roman', Times, serif;
 }
-
-
-
 /*     social medias icons   */
-
 .SocialMedias{
   display: flex;
   justify-content: space-between;
-  margin:20px;
-  padding-top:20px;
+  margin: 20px;
+  padding-top: 20px;
   padding-bottom: 20px;
   width: 285px;
-  height:27px;
-  color:grey;
+  height: 27px;
+  color: grey;
 }
+
 #first-img{
   width: 100%;
 }
@@ -164,40 +147,28 @@ h1{
   width: 720px;
   height: 481px;
 }
+
 .section2 {
   padding-top: 60px;
 }
+
 section{
   margin: 0 auto;
   width: 700px;
 }
-
-
-
-
-
-/* -------------------end---------------------   */
-
-
-
-
 /* ---------------------Main section------------------------ */
-
-
-
 main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width:1200px;
-  height:100%;
+  width: 1200px;
+  height: 100%;
   padding-top: 70px;
   overflow: hidden;
 }
 /* ----------sidenav----------       */
-
 aside{
-  background-color: #ffffff;
+  background-color: #fff;
   position: absolute;
   left: 1200px;
   display: flex;
@@ -210,10 +181,11 @@ aside{
 
 aside div{
   padding: 5px;
-  display:flex;
-  width:210px;
-  height:78px;
+  display: flex;
+  width: 210px;
+  height: 78px;
 }
+
 aside div a{
   padding: 5px;
   font-size: 12px;
@@ -229,17 +201,13 @@ aside p{
   padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
-
-
-
 /* -------------------end---------------------   */
-
 .main-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 25%;
-  padding-right:25%;
+  padding-right: 25%;
 }
 
 p{
@@ -248,42 +216,36 @@ p{
   font-size: 20px;
   color: var(--p-color);
 }
-
 /*  nested links in paragraphs   */
 .nested-links{
   color: blue;
 }
-
 /* -------------------pic caption------------------ */
-
-
-
 .image-captions{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .image-captions div{
   width: 200px;
   height: 150px;
 }
 
-
 .img1-cap{
-  position:absolute;
-  top:3370px;  left:290px;
+  position: absolute;
+  top: 3370px;  left: 290px;
 }
 
 .img2-cap{
   position: absolute;
-  top:3370px;  right:800px;
+  top: 3370px;  right: 800px;
 }
-
 
 .img3-cap{
   position: absolute;
-  top:3370px; right:550px;
+  top: 3370px; right:550px;
 }
 
 .img4-cap{
@@ -293,7 +255,7 @@ p{
 
 .img5-cap{
   position: absolute;
-  top:3730px; left: 290px;
+  top: 3730px; left: 290px;
 }
 
 .img6-cap{
@@ -303,47 +265,34 @@ p{
 
 .img7-cap{
   position: absolute;
-  top:3730px; right:550px;
+  top: 3730px; right: 550px;
 }
 
 .img8-cap{
   position: absolute;
-  top:3730px; right:320px;
+  top: 3730px; right: 320px;
 }
-
 
 .image-captions div p{
   font-family:'Times New Roman', Times, serif ;
   line-height: 18px;
   font-size: 12px;
 }
-
 /*      */
 .VideoP{
   border: 0;
   width: 700px;
-  height:450px;
+  height: 450px;
 }
-
-
-/* -------------------end------------------ */
-
-
-
 /*    image description    */
 .desc{
-  color:#888;
+  color: #888;
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 0.13px;
   font-family: "Tinos",  georgia, "times new roman", times, serif;
 }
-
-/* -------------------end---------------------   */
-
 /*  ******* footer ********    */
-
-
 .Main-container{
   border-top: 4px double #888;
   padding-top: 20px;
@@ -351,12 +300,7 @@ p{
   flex-direction: column;
   justify-content: center;
 }
-
 /*  footer navigation bar  */
-
-/*      home page link    */
-
-
 footer {
   width: 1200px;
   flex-direction: column;
@@ -364,14 +308,13 @@ footer {
   justify-content: center;
 }
 
-
 #Home-page-link{
   align-items: center;
   float: right;
   justify-content: center;
-  padding-top:25px;
+  padding-top: 25px;
   padding: bottom 25px;
-  padding-right:50px;
+  padding-right: 50px;
 }
 
 .footer-nav{
@@ -382,12 +325,9 @@ footer {
   overflow: hidden;
   padding: 10px;
 }
-
-
 /*  MAIN FOOTER   */
-
 .footer-main{
-  flex-basis:100%;
+  flex-basis: 100%;
   display: flex;
   text-align: center;
   border-bottom: 1px solid  #888;
@@ -402,9 +342,7 @@ footer {
 .footer-main li a{
   text-decoration: none;
 }
-
 /* footer bottom   */
-
 .footer-bottom{
   flex-basis: 100%;
 }
@@ -424,11 +362,7 @@ footer {
   color: #888;
 }
 
-.footer-bottom a:hover{
-  text-decoration: solid;
-}
 
-/* -------------------end---------------------   */
 
 
 
