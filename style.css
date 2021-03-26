@@ -26,7 +26,7 @@ body {
 
 :root {
   --header-color: rgb(19, 19, 19);
---color-btnhover: rgb(34, 93,132);
+  --color-btnhover: rgb(34, 93,132);
   --p-color: rgb(45, 45, 45);
 }
 
@@ -201,6 +201,11 @@ aside {
   float: right;
   padding: 20px;
 }
+/* specifity*/
+.image-captions div {
+  width: 200px;
+  height: 150px;
+}
 
 #sidenav div {
   padding: 5px;
@@ -208,7 +213,16 @@ aside {
   width: 210px;
   height: 78px;
 }
+/*specifity*/
+.footer-bottom a {
+  text-decoration: none;
+  color: #888;
+}
 
+.footer-main li a {
+  text-decoration: none;
+}
+/*specifity*/
 #sidenav div a {
   padding: 5px;
   font-size: 12px;
@@ -218,15 +232,19 @@ aside {
   width: 75px;
   height: 75px;
 }
+/*specifity*/
+.image-captions div p {
+  font-family:'Times New Roman', Times, serif ;
+  line-height: 18px;
+  font-size: 12px;
+}
 
 #sidenav p {
   font-size: 15px;
   padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
-
 /* -------------------end---------------------   */
-
 .main-container {
   display: flex;
   flex-direction: column;
@@ -234,11 +252,7 @@ aside {
   padding-left: 25%;
   padding-right: 25%;
 }
-
-
-
 /*  nested links in paragraphs   */
-
 .nested-links {
   color: blue;
 }
@@ -252,10 +266,7 @@ aside {
   justify-content: space-between;
 }
 
-.image-captions div {
-  width: 200px;
-  height: 150px;
-}
+
 
 .img1-cap {
   position: absolute;
@@ -372,13 +383,7 @@ footer {
   display: inline-block;
   text-align: left;
 }
-
-.footer-main li a {
-  text-decoration: none;
-}
-
 /* footer bottom   */
-
 .footer-bottom {
   flex-basis: 100%;
 }
