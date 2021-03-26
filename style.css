@@ -2,7 +2,7 @@
     ==============================================
                 ****** RESET ******
     ==============================================
-*/
+*/ /* stylelint-disable */
 
 @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 
@@ -571,6 +571,7 @@ footer {
   border-top: 1px solid #666;
 }
 
+/* stylelint-enable */
 
 
 
