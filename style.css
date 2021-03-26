@@ -14,6 +14,10 @@ body {
   background-color: #fff;
 }
 
+@font-face {
+  font-family: "cheltenham-normal-500";
+  src: url(fonts\cheltenham-normal-500.ttf);
+}
 
 @font-face {
   font-family: "cheltenham-italic-700";
@@ -416,13 +420,42 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  border: 4px solid yellow;
+  
   padding-top:10px;
   padding-bottom:20px;
   width: 100%;
   height: 350px;
 }
+/* blocks*/
 
+.first-block{
+  ;
+}
+
+
+.first-block-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+
+.first-block-section img{
+  width:100px;
+  height: 100px;
+}
+.first-block-section a i{
+  width: px;
+  height: px;
+}
+
+.second-block-section{}
+
+.third-block-section{
+  padding-top: 80px;
+}
 
 .picks-container1 div {
   border: 5px solid red;
@@ -432,16 +465,32 @@ footer {
 
 
 .picks-container2 {
-  border: 4px solid blue;
+  
   padding-top:10px;
   padding-bottom: 20px ;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: space-between;
   width: 100%;
-  height:220px;
+  height:260px;
   
+}
+
+.container-blocks{
+  width: 272px ;
+  height: 181px ;
+}
+.container-blocks img {
+  width:100%;
+}
+
+.container-blocks h2 {
+  font-size: 18px;
+}
+
+.container-blocks p {
+  font-size: 12;
 }
 
 .picks-container2 div{
@@ -453,7 +502,7 @@ footer {
 
 
 .picks-container3{
-  border: 4px solid black;
+  
   padding-top:10px;
   padding-bottom: 20px ;
   display: flex;
@@ -461,7 +510,7 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  height:220px;
+  height:260px;
 }
 
 .picks-container3 div{
@@ -472,10 +521,10 @@ footer {
 
 
 .article-sidenav{
+  
   display: flex;
   flex-direction: column;
-  
-  border: 4px solid darkmagenta;
+  align-content: center;
   width: 318px ;
   height:1359px;
   
@@ -484,18 +533,42 @@ footer {
 
 .Editors-picks2{
   display: flex;
-  border: 5px solid green ;
+  border: 30px solid #fff;
   height: 1359px;
   width: 318px;
 }
 
 
 .article-sidenav div{
-  border: 3px solid black;
+  border-top: 1px solid white;
+  padding: 30px 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
   width: 318px;
   height: 44.8px;
+  
+  
 }
 
+.article-head {
+  text-align: center;
+}
+.article-links p {
+  font-size: 15px;
+  font-family: "cheltenham-normal-500", Georgia, 'Times New Roman', Times, serif;
+  font-weight:bold;
+  
+  line-height: 23px;
+  color: #333;
+}
+
+.article-links{
+  justify-content: center;
+  padding:20px;
+  border-top: 1px solid #666;
+}
 
 
 
