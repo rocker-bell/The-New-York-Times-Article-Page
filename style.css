@@ -428,10 +428,22 @@ footer {
 
 .contacts-subs {
   padding-top: 10px;
-  border: 1px solid grey;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.contacts-subs button {
+  height: 36px;
+  width: 330px;
+  border-radius: 5px;
+  background-color: rgb(34, 93, 132);
+  color: #fff;
+}
+
+.contacts-subs a {
+  padding-left: 10px;
+  
 }
 
 /*   EDITORS PICKS */
