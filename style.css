@@ -402,6 +402,22 @@ footer {
   text-decoration: none;
   color: #888;
 }
+
+
+#article-infos{
+  font-size: 14px;
+  line-height: 16px;
+  color: #888;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacts-subs{
+  padding-top:10px 10px;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 /*   EDITORS PICKS */
 
 .Editorspicks-main {
@@ -572,7 +588,7 @@ footer {
 
 .Editors-picks2 {
   display: flex;
-  border: 30px solid #fff;
+  border-left: 40px solid #fff;
   height: 1359px;
   width: 318px;
 }
