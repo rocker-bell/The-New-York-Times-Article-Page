@@ -26,7 +26,7 @@ body {
 
 :root {
   --header-color: rgb(19, 19, 19);
-  --color-btnhover: rgb(34, 93,132);
+  --color-btnhover: rgb(34, 93, 132);
   --p-color: rgb(45, 45, 45);
 }
 
@@ -201,49 +201,57 @@ aside {
   float: right;
   padding: 20px;
 }
-/* specifity*/
+
+/* specifity */
+
 .image-captions div {
   width: 200px;
   height: 150px;
 }
 
-#sidenav div {
+.sidenav div {
   padding: 5px;
   display: flex;
   width: 210px;
   height: 78px;
 }
-/*specifity*/
-.footer-bottom a {
+
+/* specifity */
+
+/* .footer-bottom a {
   text-decoration: none;
   color: #888;
-}
+} */
 
-.footer-main li a {
+.footer-main a {
   text-decoration: none;
 }
-/*specifity*/
-#sidenav div a {
+
+/* specifity */
+.sidenav a {
   padding: 5px;
   font-size: 12px;
 }
 
-#sidenav div img {
+.sidenav img {
   width: 75px;
   height: 75px;
 }
-/*specifity*/
-.image-captions div p {
-  font-family:'Times New Roman', Times, serif ;
+
+/* specifity */
+
+/* .image-captions p {
+  font-family: 'Times New Roman', Times, serif;
   line-height: 18px;
   font-size: 12px;
-}
+} */
 
-#sidenav p {
+.sidenav p {
   font-size: 15px;
   padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
+
 /* -------------------end---------------------   */
 .main-container {
   display: flex;
@@ -252,6 +260,7 @@ aside {
   padding-left: 25%;
   padding-right: 25%;
 }
+
 /*  nested links in paragraphs   */
 .nested-links {
   color: blue;
@@ -266,50 +275,56 @@ aside {
   justify-content: space-between;
 }
 
-
-
 .img1-cap {
   position: absolute;
-  top: 3370px;  left: 290px;
+  top: 3370px;
+  left: 290px;
 }
 
 .img2-cap {
   position: absolute;
-  top: 3370px;  right: 800px;
+  top: 3370px;
+  right: 800px;
 }
 
 .img3-cap {
   position: absolute;
-  top: 3370px; right:550px;
+  top: 3370px;
+  right: 550px;
 }
 
 .img4-cap {
   position: absolute;
-  top: 3370px; right: 320px;
+  top: 3370px;
+  right: 320px;
 }
 
 .img5-cap {
   position: absolute;
-  top: 3730px; left: 290px;
+  top: 3730px;
+  left: 290px;
 }
 
 .img6-cap {
   position: absolute;
-  top: 3730px; right:800px;
+  top: 3730px;
+  right: 800px;
 }
 
 .img7-cap {
   position: absolute;
-  top: 3730px; right: 550px;
+  top: 3730px;
+  right: 550px;
 }
 
 .img8-cap {
   position: absolute;
-  top: 3730px; right: 320px;
+  top: 3730px;
+  right: 320px;
 }
 
-.image-captions div p {
-  font-family:'Times New Roman', Times, serif ;
+.image-captions p {
+  font-family: 'Times New Roman', Times, serif;
   line-height: 18px;
   font-size: 12px;
 }
@@ -329,8 +344,8 @@ aside {
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 0.13px;
-  font-family: "Tinos",  georgia, "times new roman", times, serif;
-} 
+  font-family: "Tinos", georgia, "times new roman", times, serif;
+}
 
 /*  ******* footer ********    */
 
@@ -383,6 +398,7 @@ footer {
   display: inline-block;
   text-align: left;
 }
+
 /* footer bottom   */
 .footer-bottom {
   flex-basis: 100%;
@@ -403,21 +419,21 @@ footer {
   color: #888;
 }
 
-
-#article-infos{
+#article-infos {
   font-size: 14px;
   line-height: 16px;
   color: #888;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.contacts-subs{
-  padding-top:10px 10px;
+.contacts-subs {
+  padding-top: 10px;
   border: 1px solid grey;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 /*   EDITORS PICKS */
 
 .Editorspicks-main {
@@ -426,27 +442,28 @@ footer {
   width: 1200px;
 }
 
-.Editors-picks{
-  border-top:1px solid #888;
+.Editors-picks {
+  border-top: 1px solid #888;
   width: 1000px;
   height: 800px;
 }
-/* Editorspicks first container header*/
-.container1-main-header{
-  padding:20px 30px;
+
+/* Editorspicks first container header */
+.container1-main-header {
+  padding: 20px 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-
-.container1-main-header p{
+.container1-main-header p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 22px;
 }
-.container1-main-header a{
+
+.container1-main-header a {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
@@ -469,10 +486,11 @@ footer {
   width: 100%;
   height: 350px;
 }
-/* blocks*/
+
+/* blocks */
 
 .first-block {
-  padding:10px 10px;
+  padding: 10px 10px;
   border: 1px solid #888;
 }
 
@@ -484,7 +502,7 @@ footer {
 }
 
 .first-block-section img {
-  width:100px;
+  width: 100px;
   height: 100px;
 }
 
@@ -498,44 +516,40 @@ footer {
 }
 
 .picks-container1 div {
-  
   width: 250px;
-  
 }
 
 .picks-container2 {
-  padding-top:20px;
-  padding-left:30px;
+  padding-top: 20px;
+  padding-left: 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  height:300px;
+  height: 300px;
 }
 
-/* */
-.Container2-main-header{
- border-top: 1px solid #888;
- padding-top: 20px;
- padding-left: 30px;
+.Container2-main-header {
+  border-top: 1px solid #888;
+  padding-top: 20px;
+  padding-left: 30px;
 }
 
-.Container2-main-header p{
+.Container2-main-header p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 22px;
 }
 
-
 .container-blocks {
-  width: 272px ;
-  height: 181px ;
+  width: 272px;
+  height: 181px;
 }
 
 .container-blocks img {
-  width:100%;
+  width: 100%;
 }
 
 .container-blocks h2 {
@@ -543,13 +557,13 @@ footer {
 }
 
 .container-blocks p {
-  font-size: 12;
+  font-size: 12px;
 }
 
 .picks-container2 div {
-  padding-right:15px;
+  padding-right: 15px;
   width: 272px;
-  height:190px;
+  height: 190px;
 }
 
 .picks-container2 p {
@@ -558,7 +572,7 @@ footer {
 
 .picks-container3 {
   padding-top: 20px;
-  padding-left: 22px ;
+  padding-left: 22px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -577,13 +591,12 @@ footer {
   font-size: 12px;
 }
 
-
 .article-sidenav {
   display: flex;
   flex-direction: column;
   align-content: center;
-  width: 318px ;
-  height: 1359px; 
+  width: 318px;
+  height: 1359px;
 }
 
 .Editors-picks2 {
@@ -593,13 +606,13 @@ footer {
   width: 318px;
 }
 
-.article-sidenav div { 
+.article-sidenav div {
   border-top: 1px solid white;
   padding: 30px 20px;
   align-items: center;
   display: flex;
   flex-direction: column;
-   width: 318px;
+  width: 318px;
   height: 44.8px;
 }
 
@@ -617,11 +630,9 @@ footer {
 
 .article-links {
   justify-content: center;
-  padding:20px;
+  padding: 20px;
   border-top: 1px solid #666;
 }
-
-
 
 /*
     ==============================================
