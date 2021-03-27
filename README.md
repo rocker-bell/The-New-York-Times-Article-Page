@@ -1,11 +1,8 @@
-
-![](https://img.shields.io/badge/myapp-blueviolet)
-
 # The New York times article page
 
 > One paragraph statement about the project.
 
-![](/images/Screenshot(136).png)
+![](/images/Screenshot (136).png)
 
 Additional description about the project and its features.
 
