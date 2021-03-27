@@ -1,20 +1,20 @@
 # The New York times article page
 
-> One paragraph statement about the project.
+> This Project is a clone of the New York Times article page ![](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
 ![](/images/projectpreview.png)
 
-This Project is a clone of the New York Times article page https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0
+
 
 ## Built With
-
 - HTML
 - CSS
+- Coffee
 
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]( https://anasscodes.github.io/Positioning-and-Floating-Elements/)
 
 
 ## Authors
