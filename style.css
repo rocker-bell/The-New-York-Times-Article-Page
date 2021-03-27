@@ -411,8 +411,30 @@ footer {
 }
 
 .Editors-picks{
+  border-top:1px solid #888;
   width: 1000px;
   height: 800px;
+}
+/* Editorspicks first container header*/
+.container1-main-header{
+  padding:20px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.container1-main-header p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 22px;
+}
+.container1-main-header a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
 }
 
 .first-main-header {
@@ -421,7 +443,6 @@ footer {
 }
 
 .picks-container1 {
-  border-top: 1px solid #888;
   padding: 30px 30px;
   display: flex;
   flex-direction: row;
