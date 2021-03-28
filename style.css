@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 
 body {
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -204,7 +205,7 @@ aside {
 
 /* specifity */
 
-.image-captions div {
+.image-captions > div {
   width: 200px;
   height: 150px;
 }
@@ -269,10 +270,10 @@ aside {
 /* -------------------pic caption------------------ */
 
 .image-captions {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  margin: 0 30px;
+  grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 40% 40% 40% 40%;
 }
 
 .img1-cap {
@@ -631,18 +632,19 @@ footer {
   text-align: center;
 }
 
+.article-links {
+  justify-content: center;
+  padding: 20px;
+  border-top: 1px solid #666;
+  text-decoration: none;
+}
+
 .article-links p {
   font-size: 15px;
   font-family: "cheltenham-normal-500", Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   line-height: 23px;
   color: #333;
-}
-
-.article-links {
-  justify-content: center;
-  padding: 20px;
-  border-top: 1px solid #666;
 }
 
 /*
