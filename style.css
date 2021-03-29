@@ -277,7 +277,7 @@ aside {
   row-gap: 130px;
   column-gap: 20px;
   top: 38%;
-  right:8%
+  right:8%;
 }
 
 .img-cap p {
@@ -288,11 +288,13 @@ aside {
   margin-bottom: 0;
 }
 
-.bold-cap{
+.bold-cap {
   font-weight: bold;
 }
 
-/*.img1-cap {
+/*
+
+.img1-cap {
   position: absolute;
   top: 3370px;
   left: 290px;
