@@ -143,13 +143,13 @@ h1 {
 }
 
 .second-figure {
-  width: 1000px;
-  height: 800px;
+  position: relative;
+  width: 945px;
+  height: 754px;
 }
 
 #second-img {
-  width: 945px;
-  height: 752px;
+  width: 100%;
 }
 
 .third-figure {
@@ -208,6 +208,7 @@ aside {
 .image-captions > div {
   width: 200px;
   height: 150px;
+  justify-content: center;
 }
 
 .sidenav div {
@@ -270,13 +271,28 @@ aside {
 /* -------------------pic caption------------------ */
 
 .image-captions {
-  margin: 0 30px;
-  grid-gap: 20px;
+  position: absolute;
   display: grid;
-  grid-template-columns: 40% 40% 40% 40%;
+  grid-template-columns: 25% 25% 25% 25%;
+  row-gap: 130px;
+  column-gap: 20px;
+  top: 38%;
+  right:8%
 }
 
-.img1-cap {
+.img-cap p {
+  font-family: sans-serif, Arial, Helvetica;
+  font-weight: 100;
+  font-size: 11px;
+  line-height: 17px;
+  margin-bottom: 0;
+}
+
+.bold-cap{
+  font-weight: bold;
+}
+
+/*.img1-cap {
   position: absolute;
   top: 3370px;
   left: 290px;
@@ -328,7 +344,7 @@ aside {
   font-family: 'Times New Roman', Times, serif;
   line-height: 18px;
   font-size: 12px;
-}
+} */
 
 /* Video-player */
 
