@@ -178,7 +178,7 @@ main {
   flex-direction: column;
   align-items: center;
   width: 1200px;
-  height: 100%;
+  height: 85%;
   padding-top: 70px;
   overflow: hidden;
 }
@@ -292,61 +292,7 @@ aside {
   font-weight: bold;
 }
 
-/*
 
-.img1-cap {
-  position: absolute;
-  top: 3370px;
-  left: 290px;
-}
-
-.img2-cap {
-  position: absolute;
-  top: 3370px;
-  right: 800px;
-}
-
-.img3-cap {
-  position: absolute;
-  top: 3370px;
-  right: 550px;
-}
-
-.img4-cap {
-  position: absolute;
-  top: 3370px;
-  right: 320px;
-}
-
-.img5-cap {
-  position: absolute;
-  top: 3730px;
-  left: 290px;
-}
-
-.img6-cap {
-  position: absolute;
-  top: 3730px;
-  right: 800px;
-}
-
-.img7-cap {
-  position: absolute;
-  top: 3730px;
-  right: 550px;
-}
-
-.img8-cap {
-  position: absolute;
-  top: 3730px;
-  right: 320px;
-}
-
-.image-captions p {
-  font-family: 'Times New Roman', Times, serif;
-  line-height: 18px;
-  font-size: 12px;
-} */
 
 /* Video-player */
 
@@ -365,6 +311,33 @@ aside {
   letter-spacing: 0.13px;
   font-family: "Tinos", georgia, "times new roman", times, serif;
 }
+
+/*  */
+
+.form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 550px;
+  height: 1000px;
+  padding: 20px 20px;
+}
+
+.form h2 {
+  text-align: center;
+  font-family: "Tinos", georgia, "times new roman", times, serif;
+}
+
+.form div {
+  padding:10px 0;
+}
+
+.first-form {
+  padding: 10px;
+  border-bottom: 2px solid #888;
+}
+
 
 /*  ******* footer ********    */
 
@@ -464,6 +437,9 @@ footer {
   padding-left: 10px;
 }
 
+/*Survey*/
+
+
 /*   EDITORS PICKS */
 
 .Editorspicks-main {
@@ -475,7 +451,7 @@ footer {
 .Editors-picks {
   border-top: 1px solid #888;
   width: 1000px;
-  height: 800px;
+  height: 500px;
 }
 
 /* Editorspicks first container header */

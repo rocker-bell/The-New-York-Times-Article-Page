@@ -657,6 +657,61 @@
               <a ><i class="fas fa-share"></i></a>
             </div>
           </div>
+
+          <section class="form">
+            <h2>Did you find this Article helpful?</h2>
+            <div class="article-form">
+              <div class="first-from">
+             <label for="name">
+                name
+              </label> <br>
+              <input type="text" id="name"> <br>
+              <label for="email">
+                Email
+              </label> <br>
+              <input type="text" placeholder="Subscribe to our Newsletter"> <br>
+              <label for="age">
+                Age (Optional):
+              </label> <br>
+              <input type="number"
+              name="age"
+              id="number"
+              min="10"
+              max="99"
+              class="form-control"
+              placeholder="Age"> <br>
+              </div>
+
+            <div class="second-form">
+              <label for="Article-interests">
+                what kind of Article picks your interests?
+              </label> <br>
+              <select id="most-like" name="mostLike" class="form-control" required>
+                <option disabled selected value>Select an option</option>
+                <option value="challenges">scientific</option>
+                <option value="projects">cultural</option>
+                <option value="community">economy</option>
+                <option value="openSource">others</option>
+              </select> <br>
+              <label for="rating">
+                was the article helpful?
+              </label> <br>
+              <input type="radio" id="yes">
+              <label for="yes">yes</label>
+              <input type="radio" id="No">
+              <label for="no">no</label>
+            </div>
+
+
+            <div class="third-form">
+              <label for="feature">What is the best feature of the New york times ?</label> <br>
+              <input type="text" placeholder="feature">
+              <input type="checkbox" name="other" id="other">
+              <label for="other">none</label> <br>
+              <label for="suggesting">Do you have any comments or suggestions ?</label> <br>
+              <textarea name="suggestions" id="comments-suggsestions" cols="30" rows="10" placeholder="Feel free..."></textarea>
+            </div>
+          </section>
         
         
       </section >
@@ -800,10 +855,13 @@
       </div>
       </section>
     </div>
+
+
       
 
 
     </main>
+   
 
     <footer>
       <div class="Main-container">
