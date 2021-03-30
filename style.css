@@ -315,29 +315,27 @@ aside {
 /*  */
 
 .form {
+  
   margin-top: 30px;
   margin-bottom: 30px;
   border-top: 3px solid blue;
   border-bottom: 3px solid blue;
+  padding: 0 100px;
   width: 550px;
   height: 700px;
-  padding: 20px 20px;
+  
 }
 
 .form h2 {
+  text-align: center;
   padding-bottom: 20px;
   color: #046582;
-  text-align: center;
   font-family: "Tinos", georgia, "times new roman", times, serif;
+  font-size: 30px;
 }
 
 .form div {
   padding:5px 0;
-}
-
-.first-form {
-  
-  border-bottom: 2px solid #888;
 }
 
 .form-paragraph {
@@ -361,8 +359,6 @@ aside {
   width: 400px;
   height: 50px;
 }
-
-
 
 /*  ******* footer ********    */
 
