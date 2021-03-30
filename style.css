@@ -292,8 +292,6 @@ aside {
   font-weight: bold;
 }
 
-
-
 /* Video-player */
 
 .VideoP {
@@ -312,10 +310,9 @@ aside {
   font-family: "Tinos", georgia, "times new roman", times, serif;
 }
 
-/*  */
+/* formm */
 
 .form {
-  
   margin-top: 30px;
   margin-bottom: 30px;
   border-top: 3px solid blue;
@@ -323,7 +320,6 @@ aside {
   padding: 0 100px;
   width: 550px;
   height: 700px;
-  
 }
 
 .form h2 {
@@ -344,7 +340,7 @@ aside {
   font-size: 18px;
 }
 
-.form-control{
+.form-control {
   text-align: center;
   border: 2px solid #31326f;
   border-radius: 10px;
@@ -352,7 +348,7 @@ aside {
   height: 30px;
 }
 
-#comments-suggsestions{
+#comments-suggsestions {
   text-align: center;
   border: 2px solid #31326f;
   border-radius: 10px;
