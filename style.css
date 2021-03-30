@@ -317,26 +317,51 @@ aside {
 .form {
   margin-top: 30px;
   margin-bottom: 30px;
-  border: 1px solid black;
-  border-radius: 5px;
+  border-top: 3px solid blue;
+  border-bottom: 3px solid blue;
   width: 550px;
-  height: 1000px;
+  height: 700px;
   padding: 20px 20px;
 }
 
 .form h2 {
+  padding-bottom: 20px;
+  color: #046582;
   text-align: center;
   font-family: "Tinos", georgia, "times new roman", times, serif;
 }
 
 .form div {
-  padding:10px 0;
+  padding:5px 0;
 }
 
 .first-form {
-  padding: 10px;
+  
   border-bottom: 2px solid #888;
 }
+
+.form-paragraph {
+  color: #4a47a3;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+.form-control{
+  text-align: center;
+  border: 2px solid #31326f;
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+}
+
+#comments-suggsestions{
+  text-align: center;
+  border: 2px solid #31326f;
+  border-radius: 10px;
+  width: 400px;
+  height: 50px;
+}
+
 
 
 /*  ******* footer ********    */

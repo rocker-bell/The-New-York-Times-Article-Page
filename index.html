@@ -660,57 +660,52 @@
 
           <section class="form">
             <h2>Did you find this Article helpful?</h2>
-            <div class="article-form">
+            
               <div class="first-from">
-             <label for="name">
-                name
-              </label> <br>
-              <input type="text" id="name"> <br>
-              <label for="email">
-                Email
-              </label> <br>
-              <input type="text" placeholder="Subscribe to our Newsletter"> <br>
-              <label for="age">
+             <p class="form-paragraph">name</p> 
+              <input type="text" class="form-control"> <br> <br>
+              <p class="form-paragraph">Email</p>
+              <input class="form-control" type="text" placeholder="Subscribe to our Newsletter"> <br> <br>
+              <P class="form-paragraph">
                 Age (Optional):
-              </label> <br>
+              </P> 
               <input type="number"
               name="age"
               id="number"
               min="10"
               max="99"
               class="form-control"
-              placeholder="Age"> <br>
-              </div>
+              placeholder="Age"> 
+              </div> 
 
             <div class="second-form">
-              <label for="Article-interests">
+              <p class="form-paragraph">
                 what kind of Article picks your interests?
-              </label> <br>
+              </p> 
               <select id="most-like" name="mostLike" class="form-control" required>
                 <option disabled selected value>Select an option</option>
                 <option value="challenges">scientific</option>
                 <option value="projects">cultural</option>
                 <option value="community">economy</option>
                 <option value="openSource">others</option>
-              </select> <br>
-              <label for="rating">
+              </select> <br><br>
+              <p class="form-paragraph">
                 was the article helpful?
-              </label> <br>
-              <input type="radio" id="yes">
+              </p> 
+              <input type="radio" id="yes" name="yesno">
               <label for="yes">yes</label>
-              <input type="radio" id="No">
+              <input type="radio" id="No" name="yesno">
               <label for="no">no</label>
-            </div>
+            </div> 
 
 
             <div class="third-form">
-              <label for="feature">What is the best feature of the New york times ?</label> <br>
-              <input type="text" placeholder="feature">
-              <input type="checkbox" name="other" id="other">
-              <label for="other">none</label> <br>
-              <label for="suggesting">Do you have any comments or suggestions ?</label> <br>
+              <p class="form-paragraph">What is the best feature of the New york times ?</p> 
+              <input type="text" placeholder="feature" class="form-control"><br> <br>
+              <p class="form-paragraph">Do you have any comments or suggestions ?</p> <br>
               <textarea name="suggestions" id="comments-suggsestions" cols="30" rows="10" placeholder="Feel free..."></textarea>
             </div>
+
           </section>
         
         
