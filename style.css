@@ -315,8 +315,8 @@ aside {
 .form {
   margin-top: 30px;
   margin-bottom: 30px;
-  border-top: 3px solid blue;
-  border-bottom: 3px solid blue;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
   padding: 0 100px;
   width: 550px;
   height: 700px;
@@ -327,7 +327,7 @@ aside {
 .form h2 {
   text-align: center;
   padding-bottom: 20px;
-  color: #046582;
+  color: #000;
   font-family: "Tinos", georgia, "times new roman", times, serif;
   font-size: 30px;
 }
@@ -337,9 +337,10 @@ aside {
 }
 
 .form-paragraph {
-  color: #4a47a3;
+  color: #000;
   font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
+  font-weight: bold;
 }
 
 .form-control {
