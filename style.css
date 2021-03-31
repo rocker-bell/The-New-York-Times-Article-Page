@@ -97,7 +97,7 @@ header {
 }
 
 .right-nav {
- margin: 10px 0;;
+  margin: 10px 0;
   float: right;
   padding: 0 5px;
 }
@@ -108,7 +108,7 @@ header {
 
 .btn {
   border-radius: 10px;
-  background-color: #567B95;
+  background-color: #567b95;
   color: #fff;
 }
 
