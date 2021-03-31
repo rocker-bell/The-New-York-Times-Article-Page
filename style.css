@@ -97,18 +97,17 @@ header {
 }
 
 .right-nav {
-  margin-top: -10px;
   float: right;
-  padding: 20px;
+  padding: 10px;
 }
 
 .right-nav button {
-  padding: 10px;
+  padding: 8px;
 }
 
 .btn {
   border-radius: 8px;
-  background-color: rgb(71, 112, 137);
+  background-color: #567b95;
   color: #fff;
 }
 
