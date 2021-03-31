@@ -97,18 +97,18 @@ header {
 }
 
 .right-nav {
-  margin-top: -10px;
+ margin: 10px 0;;
   float: right;
-  padding: 20px;
+  padding: 0 5px;
 }
 
 .right-nav button {
-  padding: 10px;
+  padding: 8px;
 }
 
 .btn {
-  border-radius: 8px;
-  background-color: rgb(71, 112, 137);
+  border-radius: 10px;
+  background-color: #567B95;
   color: #fff;
 }
 
@@ -178,7 +178,7 @@ main {
   flex-direction: column;
   align-items: center;
   width: 1200px;
-  height: 100%;
+  height: 85%;
   padding-top: 70px;
   overflow: hidden;
 }
@@ -292,62 +292,6 @@ aside {
   font-weight: bold;
 }
 
-/*
-
-.img1-cap {
-  position: absolute;
-  top: 3370px;
-  left: 290px;
-}
-
-.img2-cap {
-  position: absolute;
-  top: 3370px;
-  right: 800px;
-}
-
-.img3-cap {
-  position: absolute;
-  top: 3370px;
-  right: 550px;
-}
-
-.img4-cap {
-  position: absolute;
-  top: 3370px;
-  right: 320px;
-}
-
-.img5-cap {
-  position: absolute;
-  top: 3730px;
-  left: 290px;
-}
-
-.img6-cap {
-  position: absolute;
-  top: 3730px;
-  right: 800px;
-}
-
-.img7-cap {
-  position: absolute;
-  top: 3730px;
-  right: 550px;
-}
-
-.img8-cap {
-  position: absolute;
-  top: 3730px;
-  right: 320px;
-}
-
-.image-captions p {
-  font-family: 'Times New Roman', Times, serif;
-  line-height: 18px;
-  font-size: 12px;
-} */
-
 /* Video-player */
 
 .VideoP {
@@ -364,6 +308,66 @@ aside {
   line-height: 18px;
   letter-spacing: 0.13px;
   font-family: "Tinos", georgia, "times new roman", times, serif;
+}
+
+/* formm */
+
+.form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  padding: 0 100px;
+  width: 550px;
+  height: 730px;
+}
+
+.form h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #000;
+  font-family: "Tinos", georgia, "times new roman", times, serif;
+  font-size: 30px;
+}
+
+.form div {
+  padding: 5px 0;
+}
+
+.form-paragraph {
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-control {
+  text-align: center;
+  border: 1px solid #31326f;
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+}
+
+#comments-suggsestions {
+  text-align: center;
+  border: 2px solid #888;
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+}
+
+#survey-btn {
+  background-color: rgb(71, 112, 137);
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid rgb(71, 112, 137);
+  border-radius: 10px;
 }
 
 /*  ******* footer ********    */
@@ -475,7 +479,7 @@ footer {
 .Editors-picks {
   border-top: 1px solid #888;
   width: 1000px;
-  height: 800px;
+  height: 500px;
 }
 
 /* Editorspicks first container header */

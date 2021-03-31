@@ -649,6 +649,7 @@
           <br />
 
           <div class="contacts-subs">
+            
             <button type="submit">Read 615 comments</button>
             <div class="social-media-links">
               <a ><i class="fab fa-facebook"></i></a>
@@ -657,6 +658,67 @@
               <a ><i class="fas fa-share"></i></a>
             </div>
           </div>
+
+          <section class="form">
+            <div class="form-main-control"> 
+            <h2>Did you find this Article helpful?</h2>
+            
+              <div class="first-from">
+             <p class="form-paragraph">name</p> 
+              <input type="text" class="form-control"> <br> <br>
+              <p class="form-paragraph">Email</p>
+              <input class="form-control" type="text" placeholder="Subscribe to our Newsletter"> <br> <br>
+              <P class="form-paragraph">
+                Age (Optional):
+              </P> 
+              <input type="number"
+              name="age"
+              id="number"
+              min="10"
+              max="99"
+              class="form-control"
+              placeholder="Age"> 
+              </div> 
+
+            <div class="second-form">
+              <p class="form-paragraph">
+                what kind of Article picks your interests?
+              </p> 
+              <select id="most-like" name="mostLike" class="form-control" required>
+                <option disabled selected value>Select an option</option>
+                <option value="challenges">scientific</option>
+                <option value="projects">cultural</option>
+                <option value="community">economy</option>
+                <option value="openSource">others</option>
+              </select> <br><br>
+              <p class="form-paragraph">
+                was the article helpful?
+              </p> 
+              <input type="radio" id="yes" name="yesno">
+              <label >yes</label>
+              <input type="radio" id="No" name="yesno">
+              <label >no</label>
+            </div> 
+
+            <div class="third-form">
+              <p class="form-paragraph">What is the best feature of the New york times ?</p> 
+              <input type="text" placeholder="feature" class="form-control"> <br> <br>
+              <p class="form-paragraph">Do you have any comments or suggestions ?</p> <br>
+              <textarea name="suggestions" id="comments-suggsestions" cols="30" rows="10" placeholder="Feel free..."></textarea>
+            </div>
+            
+            <div class="submit-btn">
+              
+                <button type="button" id="survey-btn">Submit</button>
+              
+            </div>
+
+            </div>
+
+          
+            
+
+          </section>
         
         
       </section >
@@ -800,10 +862,13 @@
       </div>
       </section>
     </div>
+
+
       
 
 
     </main>
+   
 
     <footer>
       <div class="Main-container">
