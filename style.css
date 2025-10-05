@@ -62,6 +62,10 @@ header {
   border-bottom: 1px solid #ccc;
 }
 
+.fa-bars, .fa-search, .btn {
+  cursor: pointer;
+}
+
 .container1 {
   height: 55px;
   background-color: #fff;
