@@ -13,7 +13,7 @@
 //       </div>
 //       <div id="logo">
 //         <a 
-//           ><img src="images/The_New_York_Times_logo.png" id="logo-fig1" alt="logo"
+//           ><img src="./images/The_New_York_Times_logo.png" id="logo-fig1" alt="logo"
 //         /></a>
 //       </div>
 //       <div className="right-nav">
@@ -37,7 +37,7 @@
 //       </section>
 //       <figure>
         
-//         <img src="images/18cosmos-superJumbo.jpg" id="first-img"  alt="inflation" />
+//         <img src="./images/18cosmos-superJumbo.jpg" id="first-img"  alt="inflation" />
 
 //         <figcaption> 
 //             <p>
@@ -74,16 +74,16 @@
 //           <aside className="sidenav">
 //             <p><b>Editors’ Picks</b></p>
 //             <div>
-//               <img src="images/23Summer-flying-illo-square640.jpg" alt="/"/>
+//               <img src="./images/23Summer-flying-illo-square640.jpg" alt="/"/>
 //               <a href="/">5 Things We Know About Flying This Summer</a>
 //             </div>
 //             <div>
-//               <img src="images/23LOCATION-IDAHO-slide-2HSV-square640.jpg" alt="/"/>
+//               <img src="./images/23LOCATION-IDAHO-slide-2HSV-square640.jpg" alt="/"/>
 //               <a href="/">After 19 Years in Hawaii, They Were Missing Something: Winter</a>
 //             </div>
 
 //             <div>
-//               <img src="images/00spain-capa1-square640.jpg" alt="/"/>
+//               <img src="./images/00spain-capa1-square640.jpg" alt="/"/>
 //               <a href="/">Famous Robert Capa Photo Brings New Life to a Tenement and Its Residents</a>
 //             </div>
 //           </aside>
@@ -254,7 +254,7 @@
 //           inflation, which explains how the universe expanded so uniformly
 //           and so quickly in the instant after the Big Bang 13.8 billion
 //           years ago.</span>
-//             <img src="images/inflation-945.png" id="second-img" alt="Inflation" /> 
+//             <img src="./images/inflation-945.png" id="second-img" alt="Inflation" /> 
 //             <figcaption >
 //             <p>By LARRY BUCHANAN and JONATHAN CORUM</p></figcaption> 
 //       </figure>
@@ -427,7 +427,7 @@
 //       </section>
           
 //       <figure className="third-figure">
-//             <img src="images/18cosmos-2-jumbo.jpg" id="third-img" alt="south-pole" />
+//             <img src="./images/18cosmos-2-jumbo.jpg" id="third-img" alt="south-pole" />
 //             <figcaption>
 //             <span className="desc"
 //               >The Bicep2 telescope, in the foreground, was used to detect the
@@ -608,7 +608,7 @@
 //           <div>
 //             <div className="first-block">
 //               <div className="first-block-section">
-//                 <img src="images/row-1-1.png" alt="/"/>
+//                 <img src="./images/row-1-1.png" alt="/"/>
 //                 <a ><i className="fas fa-plus-circle"></i></a>
 //               </div>
 //               <div className="second-block-section">
@@ -624,7 +624,7 @@
 //           <div>
 //             <div className="first-block">
 //               <div className="first-block-section">
-//                 <img src="images/row-1-2.png" alt="/" />
+//                 <img src="./images/row-1-2.png" alt="/" />
 //                 <a ><i className="fas fa-plus-circle"></i></a>
 //               </div>
 //               <div className="second-block-section">
@@ -640,7 +640,7 @@
 //           <div>
 //             <div className="first-block">
 //               <div className="first-block-section">
-//                 <img src="images/row-1-3.png" alt="/" />
+//                 <img src="./images/row-1-3.png" alt="/" />
 //                 <a ><i className="fas fa-plus-circle"></i></a>
 //               </div>
 //               <div className="second-block-section">
@@ -663,14 +663,14 @@
 
 //           <div>
 //             <div className="container-blocks">
-//               <img src="images/row-2-1.jpeg" alt="/" />
+//               <img src="./images/row-2-1.jpeg" alt="/" />
 //               <h2>The Most Intimate Portrait Yet of a Black Hole</h2>
 //               <p>March 24</p>
 //             </div>
 //           </div>
 //           <div>
 //             <div className="container-blocks">
-//               <img src="images/row-2-2.jpeg" alt="/" />
+//               <img src="./images/row-2-2.jpeg" alt="/" />
 //               <h2>Why Oumuamua, the Interstellar Visitor, Looks Eerily Familiar</h2>
 //               <p>March 23</p>
 //             </div>
@@ -681,21 +681,21 @@
 //         <div className="picks-container3">
 //           <div>
 //             <div className="container-blocks">
-//               <img src="images/row-3-1.jpeg" alt="/" />
+//               <img src="./images/row-3-1.jpeg" alt="/" />
 //               <h2>Why Oumuamua, the Interstellar Visitor, Looks Eerily Familiar</h2>
 //               <p>March 23</p>
 //             </div>
 //           </div>
 //           <div>
 //             <div className="container-blocks">
-//               <img src="images/row-3-2.jpeg" alt="/" />
+//               <img src="./images/row-3-2.jpeg" alt="/" />
 //               <h2>Why Oumuamua, the Interstellar Visitor, Looks Eerily Familiar</h2>
 //               <p>March 23</p>
 //             </div>
 //           </div>
 //           <div>
 //             <div className="container-blocks">
-//               <img src="images/row-3-3.jpeg" alt="/" />
+//               <img src="./images/row-3-3.jpeg" alt="/" />
 //               <h2>Why Oumuamua, the Interstellar Visitor, Looks Eerily Familiar</h2>
 //               <p>March 23</p>
 //             </div>
@@ -747,7 +747,7 @@
         
 //         <div className="footer-nav">
 //           <a 
-//             ><img src="images/The_New_York_Times_logo.png" id="logo-fig2" alt="logo"
+//             ><img src="./images/The_New_York_Times_logo.png" id="logo-fig2" alt="logo"
 //           /></a>
 
 //           <a  id="Home-page-link">Go to Home Page »</a>
@@ -911,7 +911,7 @@ const Front_page = () => {
                     </div>
                     <div id="logo">
                         <a href="#">
-                            <img src="images/The_New_York_Times_logo.png" id="logo-fig1" alt="logo" />
+                            <img src="./images/The_New_York_Times_logo.png" id="logo-fig1" alt="logo" />
                         </a>
                     </div>
                     <div className="right-nav">
@@ -935,7 +935,7 @@ const Front_page = () => {
                     </section>
                     <figure>
                         
-                        <img src="images/18cosmos-superJumbo.jpg" id="first-img" alt="inflation" />
+                        <img src="./images/18cosmos-superJumbo.jpg" id="first-img" alt="inflation" />
 
                         <figcaption>
                             <p>
@@ -972,16 +972,16 @@ const Front_page = () => {
                         <aside className="sidenav">
                             <p><b>Editors’ Picks</b></p>
                             <div>
-                                <img src="images/23Summer-flying-illo-square640.jpg" alt="/"/>
+                                <img src="./images/23Summer-flying-illo-square640.jpg" alt="/"/>
                                 <a href="/">5 Things We Know About Flying This Summer</a>
                             </div>
                             <div>
-                                <img src="images/23LOCATION-IDAHO-slide-2HSV-square640.jpg" alt="/"/>
+                                <img src="./images/23LOCATION-IDAHO-slide-2HSV-square640.jpg" alt="/"/>
                                 <a href="/">After 19 Years in Hawaii, They Were Missing Something: Winter</a>
                             </div>
 
                             <div>
-                                <img src="images/00spain-capa1-square640.jpg" alt="/"/>
+                                <img src="./images/00spain-capa1-square640.jpg" alt="/"/>
                                 <a href="/">Famous Robert Capa Photo Brings New Life to a Tenement and Its Residents</a>
                             </div>
                         </aside>
@@ -1152,7 +1152,7 @@ const Front_page = () => {
                             inflation, which explains how the universe expanded so uniformly
                             and so quickly in the instant after the Big Bang 13.8 billion
                             years ago.</span>
-                        <img src="images/inflation-945.png" id="second-img" alt="Inflation" />
+                        <img src="./images/inflation-945.png" id="second-img" alt="Inflation" />
                         <figcaption >
                             <p>By LARRY BUCHANAN and JONATHAN CORUM</p></figcaption>
                     </figure>
@@ -1323,7 +1323,7 @@ const Front_page = () => {
                     </section>
                     
                     <figure className="third-figure">
-                        <img src="images/18cosmos-2-jumbo.jpg" id="third-img" alt="south-pole" />
+                        <img src="./images/18cosmos-2-jumbo.jpg" id="third-img" alt="south-pole" />
                         <figcaption>
                             <span className="desc"
                                 >The Bicep2 telescope, in the foreground, was used to detect the
@@ -1505,7 +1505,7 @@ const Front_page = () => {
                                 <div>
                                     <div className="first-block">
                                         <div className="first-block-section">
-                                            <img src="images/row-1-1.png" alt="/"/>
+                                            <img src="./images/row-1-1.png" alt="/"/>
                                             <a href="#"><i className="fas fa-plus-circle"></i></a>
                                         </div>
                                         <div className="second-block-section">
@@ -1521,7 +1521,7 @@ const Front_page = () => {
                                 <div>
                                     <div className="first-block">
                                         <div className="first-block-section">
-                                            <img src="images/row-1-2.png" alt="/" />
+                                            <img src="./images/row-1-2.png" alt="/" />
                                             <a href="#"><i className="fas fa-plus-circle"></i></a>
                                         </div>
                                         <div className="second-block-section">
@@ -1537,7 +1537,7 @@ const Front_page = () => {
                                 <div>
                                     <div className="first-block">
                                         <div className="first-block-section">
-                                            <img src="images/row-1-3.png" alt="/" />
+                                            <img src="./images/row-1-3.png" alt="/" />
                                             <a href="#"><i className="fas fa-plus-circle"></i></a>
                                         </div>
                                         <div className="second-block-section">
@@ -1560,14 +1560,14 @@ const Front_page = () => {
 
                                 <div>
                                     <div className="container-blocks">
-                                        <img src="images/row-2-1.jpeg" alt="/" />
+                                        <img src="./images/row-2-1.jpeg" alt="/" />
                                         <h2>The Most Intimate Portrait Yet of a Black Hole</h2>
                                         <p>March 24</p>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="container-blocks">
-                                        <img src="images/row-2-2.jpeg" alt="/" />
+                                        <img src="./images/row-2-2.jpeg" alt="/" />
                                         <h2>Why Oumuamua, the Interstellar Visitor, Looks Eerily Familiar</h2>
                                         <p>March 23</p>
                                     </div>
@@ -1578,21 +1578,21 @@ const Front_page = () => {
                             <div className="picks-container3">
                                 <div>
                                     <div className="container-blocks">
-                                        <img src="images/row-3-1.jpeg" alt="/" />
+                                        <img src="./images/row-3-1.jpeg" alt="/" />
                                         <h2>Why Oumuamua, the Interstellar Visitor, Looks Eerily Familiar</h2>
                                         <p>March 23</p>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="container-blocks">
-                                        <img src="images/row-3-2.jpeg" alt="/" />
+                                        <img src="./images/row-3-2.jpeg" alt="/" />
                                         <h2>Why Oumuamua, the Interstellar Visitor, Looks Eerily Familiar</h2>
                                         <p>March 23</p>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="container-blocks">
-                                        <img src="images/row-3-3.jpeg" alt="/" />
+                                        <img src="./images/row-3-3.jpeg" alt="/" />
                                         <h2>Why Oumuamua, the Interstellar Visitor, Looks Eerily Familiar</h2>
                                         <p>March 23</p>
                                     </div>
@@ -1644,7 +1644,7 @@ const Front_page = () => {
                         
                         <div className="footer-nav">
                             <a href="#">
-                                <img src="images/The_New_York_Times_logo.png" id="logo-fig2" alt="logo" />
+                                <img src="./images/The_New_York_Times_logo.png" id="logo-fig2" alt="logo" />
                             </a>
 
                             <a href="#" id="Home-page-link">Go to Home Page »</a>

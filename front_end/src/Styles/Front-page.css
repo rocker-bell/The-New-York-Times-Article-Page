@@ -60,6 +60,7 @@ a {
 
 header {
   border-bottom: 1px solid #ccc;
+  width: 100%;
 }
 
 .fa-bars, .fa-search, .btn {
@@ -79,6 +80,7 @@ header {
   overflow: hidden;
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
 }
 
 .left-nav {
