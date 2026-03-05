@@ -27,8 +27,8 @@
         /></a>
       </div>
       <div class="right-nav">
-        <button  class="btn" type="submit">SUBSCRIBE NOW</button>
-        <button  class="btn" type="submit">Log in</button>
+        <button  class="btn btn-subscribe" type="submit">SUBSCRIBE NOW</button>
+        <button  class="btn btn-login" type="submit">Log in</button>
       </div>
     </header>
 
@@ -263,41 +263,46 @@
         <section class="section2"> 
             
           <div class="image-captions">
+            <div class="first-captions captions">
             <div class="img-cap">
-              <p><span class="bold-cap">THE UNIVERSE</span> is just under 14 billion years old. From our position in the Milky Way galaxy, we can 
+              <p class="image-cap-p"><span class="bold-cap">THE UNIVERSE</span> is just under 14 billion years old. From our position in the Milky Way galaxy, we can 
                 observe a sphere that is now about 92 billion 
                 light-years across. But there's a mystery. Wherever we look, the universe has an even temperature.</p>
             </div>
              
             <div class="img-cap">
-              <p><span class="bold-cap">NOT ENOUGH TIME</span> The universe is not old enough for light to have traveled the vast distance from one side of the universe to the other, 
+              <p class="image-cap-p"><span class="bold-cap">NOT ENOUGH TIME</span> The universe is not old enough for light to have traveled the vast distance from one side of the universe to the other, 
                 and there has not been enough time for scattered patches of hot and cold to mix into an even temperature.</p>
             </div>
 
             <div class="img-cap">
-              <p><span class="bold-cap">COFFEE  At a smaller scale</span>, imagine using a telescope to look a mile in one direction. 
+              <p class="image-cap-p"><span class="bold-cap">COFFEE  At a smaller scale</span>, imagine using a telescope to look a mile in one direction. 
                 You see a coffee cup, and from the amount of steam, you can estimate its temperature and how much it has cooled.</p>
             </div>
 
 
             <div class="img-cap">
-              <p><span class="bold-cap">EVERYWHERE</span> Now turn around and look a mile in the other direction. You see a similar coffee cup, at exactly the same temperature. Coincidence? Maybe.
+              <p class="image-cap-p"><span class="bold-cap">EVERYWHERE</span> Now turn around and look a mile in the other direction. You see a similar coffee cup, at exactly the same temperature. Coincidence? Maybe.
                 But if you see a similar cup in every direction, you might want to look for another explanation.</p>
             </div>
 
+            </div>
+
+            <div class="second-captions captions">
+
             <div class="img-cap">
-              <p><span class="bold-cap">STILL NOT ENOUGH TIME</span>  There has not been enough time to carry coffee cups from place to place before they get cold. 
+              <p class="image-cap-p"><span class="bold-cap">STILL NOT ENOUGH TIME</span>  There has not been enough time to carry coffee cups from place to place before they get cold. 
                 But if all the coffee cups were somehow filled from a single coffee pot, all at the same time, that might explain their even temperature</p>
             </div>
 
 
             <div class="img-cap">
-              <p><span class="bold-cap">NFLATION</span> solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. 
+              <p class="image-cap-p"><span class="bold-cap">NFLATION</span> solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. 
                 Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe.</p>
             </div>
 
 
-            <div class="img-cap"><p>
+            <div class="img-cap"><p class="image-cap-p">
               <span class="bold-cap">FLUCTUATION</span> Astronomers have now detected evidence of these ancient fluctuations in swirls of polarized light in the cosmic background radiation, which is energy left over from the early universe. 
               These are gravitational waves predicted by Einstein.
             </p></div>
@@ -305,8 +310,9 @@
 
 
             <div class="img-cap">
-              <p><span class="bold-cap">EXPANSION</span>  Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. 
+              <p class="image-cap-p"><span class="bold-cap">EXPANSION</span>  Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. 
                 And the structure of the universe mirrors the froth and foam of the original pot.</p>
+            </div>
             </div>
 
           </div>
@@ -659,7 +665,7 @@
             </div>
           </div>
 
-          <section class="form">
+          <!-- <section class="form">
             <div class="form-main-control"> 
             <h2>Did you find this Article helpful?</h2>
             
@@ -718,7 +724,81 @@
           
             
 
-          </section>
+          </section> -->
+
+          <section class="form">
+  <div class="form-main-control"> 
+    <h2>Did you find this article helpful?</h2>
+
+    <!-- First section: Name, Email, Age -->
+    <div class="first-form">
+
+      <div class="form-group">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" id="name" class="form-control" placeholder="Enter your name">
+      </div>
+
+      <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" class="form-control" placeholder="Subscribe to our Newsletter">
+      </div>
+
+      <div class="form-group">
+        <label for="age" class="form-label">Age (Optional)</label>
+        <input type="number" id="age" name="age" min="10" max="99" class="form-control" placeholder="Age">
+      </div>
+
+    </div>
+
+    <!-- Second section: Interests and helpfulness -->
+    <div class="second-form">
+
+      <div class="form-group">
+        <label for="most-like" class="form-label">What kind of articles pick your interest?</label>
+        <select id="most-like" name="mostLike" class="form-control" required>
+          <option disabled selected value>Select an option</option>
+          <option value="scientific">Scientific</option>
+          <option value="cultural">Cultural</option>
+          <option value="economy">Economy</option>
+          <option value="others">Others</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Was the article helpful?</label>
+        <div class="radio-group">
+          <input type="radio" id="yes" name="helpful" value="yes">
+          <label for="yes">Yes</label>
+
+          <input type="radio" id="no" name="helpful" value="no">
+          <label for="no">No</label>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Third section: Feedback -->
+    <div class="third-form">
+
+      <div class="form-group">
+        <label for="feature" class="form-label">What is the best feature of the New York Times?</label>
+        <input type="text" id="feature" placeholder="Feature" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="comments-suggestions" class="form-label">Do you have any comments or suggestions?</label>
+        <textarea name="suggestions" id="comments-suggestions" cols="30" rows="5" placeholder="Feel free..." class="form-control"></textarea>
+      </div>
+
+    </div>
+
+    <!-- Submit button -->
+    <div class="form-group submit-btn">
+      <button type="submit" id="survey-btn" class="btn btn-primary">Submit</button>
+    </div>
+
+  </div>
+</section>
         
         
       </section >
@@ -726,9 +806,9 @@
       <section class="Editors-picks">
         <div class="container1-main-header">
           <p>Suggested newsletters for you</p>
-          <a href="/">Don't show me this again</a>
+          <!-- <a href="/" class="">Don't show me this again</a> -->
         </div>
-        <div class="picks-container1">
+        <div class="picks-container picks-container1">
           
           <div>
             <div class="first-block">
@@ -781,29 +861,30 @@
 
         </div>
         <div class="Container2-main-header">
-          <p>More in Space and Astronomy</p>
+            <p>More in Space and Astronomy</p>
         </div>
-        <div class="picks-container2">
+        
+        <div class="picks-container picks-container2">
          
-
-          <div>
-            <div class="container-blocks">
+          
+          
+            <div class="container-blocks container-blocks1">
               <img src="images/row-2-1.jpeg" alt="/">
               <h2>The Most Intimate Portrait Yet of a Black Hole</h2>
               <p>March 24</p>
             </div>
-          </div>
-          <div>
+          
+          
             <div class="container-blocks">
               <img src="images/row-2-2.jpeg" alt="/">
               <h2>Why Oumuamua, the Interstellar Visitor, Looks Eerily Familiar</h2>
               <p>March 23</p>
             </div>
           </div>
-          <div></div>
-        </div>
+          
+        
 
-        <div class="picks-container3">
+        <div class="picks-container picks-container3">
           <div>
             <div class="container-blocks">
               <img src="images/row-3-1.jpeg" alt="/">
